@@ -1,5 +1,5 @@
 applovin.com, 9cbefacf5ca572cdea9ba7e78161bbff, DIRECT
-google.com, pub-2087930884607218, DIRECT, f08c47fec0942fa0
+google.com, pub-2958389708046950, DIRECT, f08c47fec0942fa0
 facebook.com, 593215076185888, RESELLER, c3e20eee3f780d68
 facebook.com, 593215076185888, DIRECT, c3e20eee3f780d68
 
