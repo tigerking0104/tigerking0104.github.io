@@ -2204,6 +2204,42 @@
         "source_url": "https://x.com/RonDeSantis/status/2088079985282089156",
         "context": null,
         "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2106873036834214184",
+        "content": "And a handful of tech oligarchs get to make that decision for the rest of us? No dice.POLITICO: Sam Altman to Decoded: ‘The world should accept some bad things happening’ for the benefits of AI https://politi.co/4rJE8dI",
+        "date": "2026-10-04T22:24:10Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2106873036834214184",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2106866372625957100",
+        "content": "Well, the Canes played Indiana tough in the CFP championship and they might be better this year, so I’m sure they will hold up just fine.Oliver: @RonDeSantis They will get blown out by one of the big SEC teams or Ohio State. Just like my old Pac 12 teams do. They can’t compete on the Line of Scrimmage",
+        "date": "2026-10-04T21:57:41Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2106866372625957100",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2106843415514145178",
+        "content": "Yes! It is wrong to claim that this amendment “increases rent” given the 50% cut to commercial property annual valuation exposure.But, more importantly, most renters would like to buy someday and Amendment 3 makes it more attainable.Kat111: @RonDeSantis Floridians need to think that just because you don’t own a house now, you may in the future. Lower property taxes may now qualify you to buy",
+        "date": "2026-10-04T20:26:28Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2106843415514145178",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2106842118551416911",
+        "content": "Which is why voters understand that these outlets have an agenda they are pushing. Its overkill.Leck Walesa: @RonDeSantis I've yet to see a positive or pro-taxpayer article.",
+        "date": "2026-10-04T20:21:18Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2106842118551416911",
+        "context": null,
+        "is_user_added": false
       }
     ]
   },
@@ -22792,6 +22828,44 @@
         "source": "other",
         "source_url": null,
         "context": "Attributed"
+      }
+    ]
+  },
+  {
+    "id": "mike_johnson",
+    "name": "Mike Johnson",
+    "avatar_url": null,
+    "title": "Speaker of the House",
+    "stance": "right",
+    "domain": "politics",
+    "quotes": [
+      {
+        "id": "mike_johnson_x_2106884426906968421",
+        "content": "Democrats BLOCKED voter ID laws that would ensure voters are who they say they are when they cast a ballot — for one simple reason: they want illegal aliens to vote in American elections. Only AMERICAN CITIZENS should decide the outcome of AMERICAN elections.",
+        "date": "2026-10-04T23:09:26Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2106884426906968421",
+        "context": null,
+        "is_user_added": false
+      }
+    ]
+  },
+  {
+    "id": "demis_hassabis",
+    "name": "Demis Hassabis",
+    "avatar_url": null,
+    "title": "CEO of Google DeepMind, Nobel Prize in Chemistry",
+    "stance": "none",
+    "domain": "tech",
+    "quotes": [
+      {
+        "id": "demis_hassabis_x_2106850913474482566",
+        "content": "Very proud of the impact of all our work using AI to accelerate science and medicine for the benefit of society.Sundar Pichai: Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so:- Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to",
+        "date": "2026-10-04T20:56:15Z",
+        "source": "x",
+        "source_url": "https://x.com/demishassabis/status/2106850913474482566",
+        "context": null,
+        "is_user_added": false
       }
     ]
   }
