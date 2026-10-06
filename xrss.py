@@ -603,6 +603,12 @@ def main():
     existing_data = load_existing_data()
     merged = merge_data(existing_data, new_persons_quotes)
 
+    # 每个人物的语录按日期从新到旧排序（与 App 内置数据顺序一致；
+    # 无日期的语录视为最旧，排在末尾，排序稳定不影响原有相对位置）
+    for person in merged:
+        person.setdefault("quotes", []).sort(
+            key=lambda q: q.get("date") or "", reverse=True)
+
     # 更新 last_published_at（取所有新条目中最晚的 publishedAt）
     latest_published = last_published_at
     for entry in entries:
