@@ -1,0 +1,7 @@
+# macOS 垃圾文件（AppleDouble 元数据 / Finder 记录）
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

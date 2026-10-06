@@ -1,0 +1,2576 @@
+"""
+名人配置 - 定义所有需要抓取名人的信息、分类和数据来源
+
+AZQuotes ID 获取方式：在 https://www.azquotes.com 搜索人名，
+URL 格式为 /author/{id}-{Name}
+
+ID 已于 2026-07 通过 web 搜索验证
+"""
+
+people = [
+    # ==================== 左派 / Democratic ====================
+    {
+        "id": "biden",
+        "name": "Joe Biden",
+        "title": "46th President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "whitehouse": {"url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/"},
+            "x": {"handle": "@POTUS"},
+            "speech": {"slug": "joseph-r-biden"},
+            "wikiquote": {"slug": "Joe_Biden"},
+            "azquotes": {"id": 1383},
+        },
+    },
+    {
+        "id": "obama",
+        "name": "Barack Obama",
+        "title": "44th President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@BarackObama"},
+            "speech": {"slug": "barack-obama"},
+            "wikiquote": {"slug": "Barack_Obama"},
+            "azquotes": {"id": 11023},
+        },
+    },
+    {
+        "id": "aoc",
+        "name": "Alexandria Ocasio-Cortez",
+        "title": "U.S. Representative, NY-14",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@AOC"},
+            "wikiquote": {"slug": "Alexandria_Ocasio-Cortez"},
+        },
+    },
+    {
+        "id": "pelosi",
+        "name": "Nancy Pelosi",
+        "title": "Former Speaker of the House",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@NancyPelosi"},
+            "wikiquote": {"slug": "Nancy_Pelosi"},
+            "azquotes": {"id": 11483},
+        },
+    },
+    {
+        "id": "sanders",
+        "name": "Bernie Sanders",
+        "title": "U.S. Senator, Vermont",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@BernieSanders"},
+            "wikiquote": {"slug": "Bernie_Sanders"},
+            "azquotes": {"id": 12951},
+        },
+    },
+    {
+        "id": "harris",
+        "name": "Kamala Harris",
+        "title": "49th Vice President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@KamalaHarris"},
+            "whitehouse": {"url": "https://www.whitehouse.gov/administration/vice-president-harris/"},
+            "wikiquote": {"slug": "Kamala_Harris"},
+            "azquotes": {"id": 6301},
+        },
+    },
+    {
+        "id": "schumer",
+        "name": "Chuck Schumer",
+        "title": "U.S. Senator, New York (Senate Majority Leader)",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@SenSchumer"},
+        },
+    },
+    {
+        "id": "warren",
+        "name": "Elizabeth Warren",
+        "title": "U.S. Senator, Massachusetts",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@SenWarren"},
+            "wikiquote": {"slug": "Elizabeth_Warren"},
+        },
+    },
+    {
+        "id": "clinton",
+        "name": "Hillary Clinton",
+        "title": "Former U.S. Secretary of State & Senator",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@HillaryClinton"},
+            "wikiquote": {"slug": "Hillary_Rodham_Clinton"},
+            "azquotes": {"id": 2997},
+        },
+    },
+    {
+        "id": "fdr",
+        "name": "Franklin D. Roosevelt",
+        "title": "32nd President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "franklin-d-roosevelt"},
+            "wikiquote": {"slug": "Franklin_D._Roosevelt"},
+            "azquotes": {"id": 12604},
+        },
+    },
+    {
+        "id": "jfk",
+        "name": "John F. Kennedy",
+        "title": "35th President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "john-f-kennedy"},
+            "wikiquote": {"slug": "John_F._Kennedy"},
+            "azquotes": {"id": 7900},
+        },
+    },
+    {
+        "id": "mlk",
+        "name": "Martin Luther King Jr.",
+        "title": "Civil Rights Leader",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "martin-luther-king-jr"},
+            "wikiquote": {"slug": "Martin_Luther_King,_Jr."},
+            "azquotes": {"id": 8044},
+        },
+    },
+    {
+        "id": "buttigieg",
+        "name": "Pete Buttigieg",
+        "title": "U.S. Secretary of Transportation",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@PeteButtigieg"},
+            "wikiquote": {"slug": "Pete_Buttigieg"},
+        },
+    },
+    {
+        "id": "booker",
+        "name": "Cory Booker",
+        "title": "U.S. Senator, New Jersey",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@CoryBooker"},
+            "wikiquote": {"slug": "Cory_Booker"},
+        },
+    },
+    {
+        "id": "newsom",
+        "name": "Gavin Newsom",
+        "title": "Governor of California",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@GavinNewsom"},
+            "wikiquote": {"slug": "Gavin_Newsom"},
+        },
+    },
+    {
+        "id": "warnock",
+        "name": "Raphael Warnock",
+        "title": "U.S. Senator, Georgia",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@ReverendWarnock"},
+            "wikiquote": {"slug": "Raphael_Warnock"},
+        },
+    },
+    {
+        "id": "whitmer",
+        "name": "Gretchen Whitmer",
+        "title": "Governor of Michigan",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@GovWhitmer"},
+        },
+    },
+
+    # ==================== 右派 / Republican ====================
+    {
+        "id": "trump",
+        "name": "Donald Trump",
+        "title": "45th & 47th President of the United States",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@realDonaldTrump"},
+            "whitehouse": {"url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/"},
+            "speech": {"slug": "donald-j-trump"},
+            "fox": {"url": "https://feeds.foxnews.com/foxnews/politics"},
+            "wikiquote": {"slug": "Donald_Trump"},
+            "azquotes": {"id": 14823},
+        },
+    },
+    {
+        "id": "desantis",
+        "name": "Ron DeSantis",
+        "title": "Governor of Florida",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@RonDeSantis"},
+            "fox": {"url": "https://feeds.foxnews.com/foxnews/politics"},
+            "wikiquote": {"slug": "Ron_DeSantis"},
+        },
+    },
+    {
+        "id": "haley",
+        "name": "Nikki Haley",
+        "title": "Former U.S. Ambassador to the UN",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@NikkiHaley"},
+            "wikiquote": {"slug": "Nikki_Haley"},
+            "azquotes": {"id": 6112},
+        },
+    },
+    {
+        "id": "cruz",
+        "name": "Ted Cruz",
+        "title": "U.S. Senator, Texas",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@tedcruz"},
+            "fox": {"url": "https://feeds.foxnews.com/foxnews/politics"},
+            "wikiquote": {"slug": "Ted_Cruz"},
+            "azquotes": {"id": 3464},
+        },
+    },
+    {
+        "id": "mcconnell",
+        "name": "Mitch McConnell",
+        "title": "U.S. Senator, Kentucky (Senate Minority Leader)",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@McConnellPress"},
+            "wikiquote": {"slug": "Mitch_McConnell"},
+            "azquotes": {"id": 9740},
+        },
+    },
+    {
+        "id": "graham",
+        "name": "Lindsey Graham",
+        "title": "U.S. Senator, South Carolina",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@LindseyGrahamSC"},
+            "fox": {"url": "https://feeds.foxnews.com/foxnews/politics"},
+            "azquotes": {"id": 5782},
+        },
+    },
+    {
+        "id": "mtg",
+        "name": "Marjorie Taylor Greene",
+        "title": "U.S. Representative, GA-14",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@mtgreenee"},
+        },
+    },
+    {
+        "id": "vance",
+        "name": "JD Vance",
+        "title": "U.S. Senator, Ohio",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@JDVance1"},
+            "fox": {"url": "https://feeds.foxnews.com/foxnews/politics"},
+            "wikiquote": {"slug": "J._D._Vance"},
+        },
+    },
+    {
+        "id": "reagan",
+        "name": "Ronald Reagan",
+        "title": "40th President of the United States",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "ronald-reagan"},
+            "wikiquote": {"slug": "Ronald_Reagan"},
+            "azquotes": {"id": 12140},
+        },
+    },
+    {
+        "id": "lincoln",
+        "name": "Abraham Lincoln",
+        "title": "16th President of the United States",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "abraham-lincoln"},
+            "wikiquote": {"slug": "Abraham_Lincoln"},
+            "azquotes": {"id": 8880},
+        },
+    },
+    {
+        "id": "rubio",
+        "name": "Marco Rubio",
+        "title": "U.S. Senator, Florida",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@marcorubio"},
+            "wikiquote": {"slug": "Marco_Rubio"},
+        },
+    },
+    {
+        "id": "hawley",
+        "name": "Josh Hawley",
+        "title": "U.S. Senator, Missouri",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@HawleyMO"},
+            "wikiquote": {"slug": "Josh_Hawley"},
+        },
+    },
+    {
+        "id": "cotton",
+        "name": "Tom Cotton",
+        "title": "U.S. Senator, Arkansas",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@TomCottonAR"},
+        },
+    },
+    {
+        "id": "noem",
+        "name": "Kristi Noem",
+        "title": "Governor of South Dakota",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@kristinnoem"},
+        },
+    },
+    {
+        "id": "tim_scott",
+        "name": "Tim Scott",
+        "title": "U.S. Senator, South Carolina",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@timscottus"},
+            "wikiquote": {"slug": "Tim_Scott"},
+        },
+    },
+    {
+        "id": "mike_johnson",
+        "name": "Mike Johnson",
+        "title": "Speaker of the House",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@SpeakerJohnson"},
+        },
+    },
+    {
+        "id": "sarah_sanders",
+        "name": "Sarah Huckabee Sanders",
+        "title": "Governor of Arkansas",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@SarahHuckabee"},
+        },
+    },
+
+    # ==================== Left - Commentators & Media ====================
+    {
+        "id": "maddow",
+        "name": "Rachel Maddow",
+        "title": "MSNBC Host & Political Commentator",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@maddow"},
+            "wikiquote": {"slug": "Rachel_Maddow"},
+            "azquotes": {"id": 54850},
+        },
+    },
+    {
+        "id": "jon_stewart",
+        "name": "Jon Stewart",
+        "title": "Comedian & Former Host of The Daily Show",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@jonstewart"},
+            "wikiquote": {"slug": "Jon_Stewart"},
+            "azquotes": {"id": 28904},
+        },
+    },
+    {
+        "id": "colbert",
+        "name": "Stephen Colbert",
+        "title": "Late Night Host & Comedian",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@StephenAtHome"},
+            "wikiquote": {"slug": "Stephen_Colbert"},
+            "azquotes": {"id": 24263},
+        },
+    },
+    {
+        "id": "cooper",
+        "name": "Anderson Cooper",
+        "title": "CNN Anchor & Journalist",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@andersoncooper"},
+            "wikiquote": {"slug": "Anderson_Cooper"},
+            "azquotes": {"id": 31696},
+        },
+    },
+    {
+        "id": "joy_reid",
+        "name": "Joy Reid",
+        "title": "MSNBC Host & Political Commentator",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@JoyAnnReid"},
+        },
+    },
+    {
+        "id": "chris_hayes",
+        "name": "Chris Hayes",
+        "title": "MSNBC Host & Political Commentator",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@chrislhayes"},
+        },
+    },
+    {
+        "id": "stacey_abrams",
+        "name": "Stacey Abrams",
+        "title": "Politician & Voting Rights Activist",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@staceyabrams"},
+            "wikiquote": {"slug": "Stacey_Abrams"},
+        },
+    },
+    {
+        "id": "al_gore",
+        "name": "Al Gore",
+        "title": "45th Vice President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@algore"},
+            "wikiquote": {"slug": "Al_Gore"},
+            "azquotes": {"id": 1460},
+        },
+    },
+    {
+        "id": "bill_clinton",
+        "name": "Bill Clinton",
+        "title": "42nd President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@BillClinton"},
+            "speech": {"slug": "william-j-clinton"},
+            "wikiquote": {"slug": "Bill_Clinton"},
+            "azquotes": {"id": 1563},
+        },
+    },
+    {
+        "id": "carter",
+        "name": "Jimmy Carter",
+        "title": "39th President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "jimmy-carter"},
+            "wikiquote": {"slug": "Jimmy_Carter"},
+            "azquotes": {"id": 2175},
+        },
+    },
+    {
+        "id": "lbj",
+        "name": "Lyndon B. Johnson",
+        "title": "36th President of the United States",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "speech": {"slug": "lyndon-b-johnson"},
+            "wikiquote": {"slug": "Lyndon_B._Johnson"},
+            "azquotes": {"id": 8108},
+        },
+    },
+
+    # ==================== Right - Commentators & Media ====================
+    {
+        "id": "charlie_kirk",
+        "name": "Charlie Kirk",
+        "title": "Founder of Turning Point USA & Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@charliekirk11"},
+            "wikiquote": {"slug": "Charlie_Kirk"},
+        },
+    },
+    {
+        "id": "tucker",
+        "name": "Tucker Carlson",
+        "title": "Political Commentator & Former Fox News Host",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@TuckerCarlson"},
+            "wikiquote": {"slug": "Tucker_Carlson"},
+            "azquotes": {"id": 79561},
+        },
+    },
+    {
+        "id": "shapiro",
+        "name": "Ben Shapiro",
+        "title": "Political Commentator & Founder of The Daily Wire",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@benshapiro"},
+            "wikiquote": {"slug": "Ben_Shapiro"},
+            "azquotes": {"id": 94144},
+        },
+    },
+    {
+        "id": "hannity",
+        "name": "Sean Hannity",
+        "title": "Fox News Host & Political Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@seanhannity"},
+            "wikiquote": {"slug": "Sean_Hannity"},
+        },
+    },
+    {
+        "id": "rush",
+        "name": "Rush Limbaugh",
+        "title": "Radio Host & Conservative Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Rush_Limbaugh"},
+            "azquotes": {"id": 14016},
+        },
+    },
+    {
+        "id": "coulter",
+        "name": "Ann Coulter",
+        "title": "Conservative Media Pundit & Author",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@AnnCoulter"},
+            "wikiquote": {"slug": "Ann_Coulter"},
+            "azquotes": {"id": 3789},
+        },
+    },
+    {
+        "id": "ingraham",
+        "name": "Laura Ingraham",
+        "title": "Fox News Host & Political Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@IngrahamAngle"},
+            "azquotes": {"id": 5837},
+        },
+    },
+    {
+        "id": "candace_owens",
+        "name": "Candace Owens",
+        "title": "Conservative Commentator & Author",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@RealCandanceO"},
+            "wikiquote": {"slug": "Candace_Owens"},
+        },
+    },
+    {
+        "id": "matt_walsh",
+        "name": "Matt Walsh",
+        "title": "Conservative Commentator & Author",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@MattWalshBlog"},
+            "wikiquote": {"slug": "Matt_Walsh_(commentator)"},
+        },
+    },
+    {
+        "id": "glenn_beck",
+        "name": "Glenn Beck",
+        "title": "Conservative Radio Host & Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@glennbeck"},
+            "wikiquote": {"slug": "Glenn_Beck"},
+            "azquotes": {"id": 44253},
+        },
+    },
+    {
+        "id": "bill_oreilly",
+        "name": "Bill O'Reilly",
+        "title": "Former Fox News Host & Author",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@BillOReilly"},
+            "wikiquote": {"slug": "Bill_O'Reilly_(commentator)"},
+            "azquotes": {"id": 10336},
+        },
+    },
+    {
+        "id": "dennis_prager",
+        "name": "Dennis Prager",
+        "title": "Conservative Radio Host & Founder of PragerU",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@DennisPrager"},
+            "wikiquote": {"slug": "Dennis_Prager"},
+            "azquotes": {"id": 12156},
+        },
+    },
+    {
+        "id": "megyn_kelly",
+        "name": "Megyn Kelly",
+        "title": "Journalist & Political Commentator",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@megynkelly"},
+            "wikiquote": {"slug": "Megyn_Kelly"},
+        },
+    },
+    {
+        "id": "pence",
+        "name": "Mike Pence",
+        "title": "48th Vice President of the United States",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@Mike_Pence"},
+            "wikiquote": {"slug": "Mike_Pence"},
+            "azquotes": {"id": 104983},
+        },
+    },
+
+    # ==================== More Entertainment ====================
+    {
+        "id": "beyonce",
+        "name": "Beyoncé",
+        "title": "Singer-Songwriter & Actress",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Beyoncé"},
+            "azquotes": {"id": 48612},
+        },
+    },
+    {
+        "id": "lady_gaga",
+        "name": "Lady Gaga",
+        "title": "Singer-Songwriter & Actress",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Lady_Gaga"},
+            "azquotes": {"id": 62704},
+        },
+    },
+    {
+        "id": "madonna",
+        "name": "Madonna",
+        "title": "Singer-Songwriter & Actress",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Madonna"},
+            "azquotes": {"id": 8262},
+        },
+    },
+    {
+        "id": "bruce_springsteen",
+        "name": "Bruce Springsteen",
+        "title": "Singer-Songwriter & Musician",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Bruce_Springsteen"},
+            "azquotes": {"id": 2144},
+        },
+    },
+    {
+        "id": "paul_mccartney",
+        "name": "Paul McCartney",
+        "title": "Singer-Songwriter & Former Beatle",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Paul_McCartney"},
+            "azquotes": {"id": 10250},
+        },
+    },
+    {
+        "id": "aretha_franklin",
+        "name": "Aretha Franklin",
+        "title": "Singer-Songwriter, Queen of Soul",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Aretha_Franklin"},
+            "azquotes": {"id": 1548},
+        },
+    },
+    {
+        "id": "whitney_houston",
+        "name": "Whitney Houston",
+        "title": "Singer & Actress",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Whitney_Houston"},
+            "azquotes": {"id": 35116},
+        },
+    },
+    {
+        "id": "stevie_wonder",
+        "name": "Stevie Wonder",
+        "title": "Singer-Songwriter & Musician",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Stevie_Wonder"},
+            "azquotes": {"id": 14423},
+        },
+    },
+    {
+        "id": "leonardo_dicaprio",
+        "name": "Leonardo DiCaprio",
+        "title": "Actor & Environmental Activist",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Leonardo_DiCaprio"},
+            "azquotes": {"id": 8367},
+        },
+    },
+    {
+        "id": "tom_cruise",
+        "name": "Tom Cruise",
+        "title": "Actor & Producer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Tom_Cruise"},
+            "azquotes": {"id": 15813},
+        },
+    },
+    {
+        "id": "brad_pitt",
+        "name": "Brad Pitt",
+        "title": "Actor & Producer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Brad_Pitt"},
+            "azquotes": {"id": 1648},
+        },
+    },
+    {
+        "id": "rdj",
+        "name": "Robert Downey Jr.",
+        "title": "Actor & Producer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Robert_Downey_Jr."},
+            "azquotes": {"id": 12135},
+        },
+    },
+    {
+        "id": "keanu_reeves",
+        "name": "Keanu Reeves",
+        "title": "Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Keanu_Reeves"},
+            "azquotes": {"id": 7995},
+        },
+    },
+    {
+        "id": "will_smith",
+        "name": "Will Smith",
+        "title": "Actor & Rapper",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Will_Smith"},
+            "azquotes": {"id": 16762},
+        },
+    },
+    {
+        "id": "george_clooney",
+        "name": "George Clooney",
+        "title": "Actor & Filmmaker",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "George_Clooney"},
+            "azquotes": {"id": 4824},
+        },
+    },
+    {
+        "id": "jack_nicholson",
+        "name": "Jack Nicholson",
+        "title": "Actor & Filmmaker",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Jack_Nicholson"},
+            "azquotes": {"id": 7565},
+        },
+    },
+    {
+        "id": "schwarzenegger",
+        "name": "Arnold Schwarzenegger",
+        "title": "Actor & Former Governor of California",
+        "stance": "right",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Arnold_Schwarzenegger"},
+            "azquotes": {"id": 13340},
+        },
+    },
+    {
+        "id": "clint_eastwood",
+        "name": "Clint Eastwood",
+        "title": "Actor & Filmmaker",
+        "stance": "right",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Clint_Eastwood"},
+            "azquotes": {"id": 3248},
+        },
+    },
+    {
+        "id": "samuel_jackson",
+        "name": "Samuel L. Jackson",
+        "title": "Actor & Producer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Samuel_L._Jackson"},
+            "azquotes": {"id": 12966},
+        },
+    },
+    {
+        "id": "anthony_hopkins",
+        "name": "Anthony Hopkins",
+        "title": "Actor & Filmmaker",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Anthony_Hopkins"},
+            "azquotes": {"id": 657},
+        },
+    },
+
+    # ==================== More Sports ====================
+    {
+        "id": "tom_brady",
+        "name": "Tom Brady",
+        "title": "NFL Legend, 7x Super Bowl Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Tom_Brady"},
+            "azquotes": {"id": 69493},
+        },
+    },
+    {
+        "id": "giannis",
+        "name": "Giannis Antetokounmpo",
+        "title": "NBA Player, Milwaukee Bucks",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Giannis_Antetokounmpo"},
+            "azquotes": {"id": 172544},
+        },
+    },
+    {
+        "id": "kd",
+        "name": "Kevin Durant",
+        "title": "NBA Player, Phoenix Suns",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Kevin_Durant"},
+            "azquotes": {"id": 74308},
+        },
+    },
+    {
+        "id": "neymar",
+        "name": "Neymar",
+        "title": "Brazilian Footballer",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Neymar"},
+            "azquotes": {"id": 106717},
+        },
+    },
+    {
+        "id": "mbappe",
+        "name": "Kylian Mbappé",
+        "title": "French Footballer",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Kylian_Mbappé"},
+            "azquotes": {"id": 176108},
+        },
+    },
+    {
+        "id": "simone_biles",
+        "name": "Simone Biles",
+        "title": "American Gymnast, 7x Olympic Medalist",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Simone_Biles"},
+            "azquotes": {"id": 118899},
+        },
+    },
+    {
+        "id": "pacquiao",
+        "name": "Manny Pacquiao",
+        "title": "Filipino Boxer & Senator",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Manny_Pacquiao"},
+            "azquotes": {"id": 53073},
+        },
+    },
+    {
+        "id": "schumacher",
+        "name": "Michael Schumacher",
+        "title": "7x Formula One World Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Michael_Schumacher"},
+            "azquotes": {"id": 14067},
+        },
+    },
+    {
+        "id": "wayne_gretzky",
+        "name": "Wayne Gretzky",
+        "title": "NHL Legend, The Great One",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Wayne_Gretzky"},
+            "azquotes": {"id": 16123},
+        },
+    },
+    {
+        "id": "conor_mcgregor",
+        "name": "Conor McGregor",
+        "title": "Irish MMA Fighter",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Conor_McGregor"},
+            "azquotes": {"id": 100885},
+        },
+    },
+
+    # ==================== Entertainment ====================
+    {
+        "id": "swift",
+        "name": "Taylor Swift",
+        "title": "Singer-Songwriter",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@taylorswift13"},
+            "wikiquote": {"slug": "Taylor_Swift"},
+        },
+    },
+    {
+        "id": "oprah",
+        "name": "Oprah Winfrey",
+        "title": "Media Executive & Talk Show Host",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@Oprah"},
+            "interview": {"url": "https://www.oprah.com"},
+            "wikiquote": {"slug": "Oprah_Winfrey"},
+            "azquotes": {"id": 15820},
+        },
+    },
+    {
+        "id": "the_rock",
+        "name": "Dwayne Johnson",
+        "title": "Actor & Producer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@TheRock"},
+            "wikiquote": {"slug": "Dwayne_Johnson"},
+            "azquotes": {"id": 7490},
+        },
+    },
+    {
+        "id": "kanye",
+        "name": "Kanye West",
+        "title": "Rapper & Fashion Designer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@kanyewest"},
+            "wikiquote": {"slug": "Kanye_West"},
+            "azquotes": {"id": 15517},
+        },
+    },
+    {
+        "id": "chappelle",
+        "name": "Dave Chappelle",
+        "title": "Comedian & Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Dave_Chappelle"},
+            "azquotes": {"id": 2736},
+        },
+    },
+    {
+        "id": "streep",
+        "name": "Meryl Streep",
+        "title": "Actress",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Meryl_Streep"},
+            "azquotes": {"id": 14233},
+        },
+    },
+
+    # ==================== Sports ====================
+    {
+        "id": "lebron",
+        "name": "LeBron James",
+        "title": "NBA Player, Los Angeles Lakers",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "x": {"handle": "@KingJames"},
+            "wikiquote": {"slug": "LeBron_James"},
+            "azquotes": {"id": 7332},
+        },
+    },
+    {
+        "id": "mahomes",
+        "name": "Patrick Mahomes",
+        "title": "NFL Quarterback, Kansas City Chiefs",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "x": {"handle": "@PatrickMahomes"},
+        },
+    },
+    {
+        "id": "serena",
+        "name": "Serena Williams",
+        "title": "American Tennis Player, 23x Grand Slam Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "x": {"handle": "@serenawilliams"},
+            "wikiquote": {"slug": "Serena_Williams"},
+            "azquotes": {"id": 15722},
+        },
+    },
+    {
+        "id": "curry",
+        "name": "Stephen Curry",
+        "title": "NBA Player, Golden State Warriors",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "x": {"handle": "@StephenCurry30"},
+            "azquotes": {"id": 60226},
+        },
+    },
+    {
+        "id": "ali",
+        "name": "Muhammad Ali",
+        "title": "American Boxer, Heavyweight Champion & Activist",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Muhammad_Ali"},
+            "azquotes": {"id": 242},
+        },
+    },
+    {
+        "id": "jordan",
+        "name": "Michael Jordan",
+        "title": "NBA Legend, Chicago Bulls",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Michael_Jordan"},
+            "azquotes": {"id": 7617},
+        },
+    },
+
+    # ==================== Tech ====================
+    {
+        "id": "musk",
+        "name": "Elon Musk",
+        "title": "CEO of Tesla & SpaceX",
+        "stance": "right",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@elonmusk"},
+            "wikiquote": {"slug": "Elon_Musk"},
+            "azquotes": {"id": 10617},
+        },
+    },
+    {
+        "id": "zuck",
+        "name": "Mark Zuckerberg",
+        "title": "CEO of Meta",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@finkd"},
+            "wikiquote": {"slug": "Mark_Zuckerberg"},
+            "azquotes": {"id": 16208},
+        },
+    },
+    {
+        "id": "jobs",
+        "name": "Steve Jobs",
+        "title": "Co-Founder of Apple",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "wikiquote": {"slug": "Steve_Jobs"},
+            "azquotes": {"id": 7449},
+        },
+    },
+    {
+        "id": "gates",
+        "name": "Bill Gates",
+        "title": "Co-Founder of Microsoft",
+        "stance": "left",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@BillGates"},
+            "wikiquote": {"slug": "Bill_Gates"},
+            "azquotes": {"id": 5382},
+        },
+    },
+    {
+        "id": "sam_altman",
+        "name": "Sam Altman",
+        "title": "CEO of OpenAI",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@sama"},
+            "wikiquote": {"slug": "Sam_Altman"},
+        },
+    },
+    {
+        "id": "jensen_huang",
+        "name": "Jensen Huang",
+        "title": "CEO of NVIDIA",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@JensensHuang"},
+        },
+    },
+    {
+        "id": "satya_nadella",
+        "name": "Satya Nadella",
+        "title": "CEO of Microsoft",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@satyanadella"},
+        },
+    },
+    {
+        "id": "sundar_pichai",
+        "name": "Sundar Pichai",
+        "title": "CEO of Alphabet/Google",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@sundarpichai"},
+        },
+    },
+    {
+        "id": "karpathy",
+        "name": "Andrej Karpathy",
+        "title": "AI Researcher & Educator",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@karpathy"},
+        },
+    },
+    {
+        "id": "yann_lecun",
+        "name": "Yann LeCun",
+        "title": "Chief AI Scientist at Meta, Turing Award Winner",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@ylecun"},
+            "wikiquote": {"slug": "Yann_LeCun"},
+        },
+    },
+    {
+        "id": "andrew_ng",
+        "name": "Andrew Ng",
+        "title": "AI Researcher & Founder of DeepLearning.AI",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@AndrewYNg"},
+        },
+    },
+    {
+        "id": "lex_fridman",
+        "name": "Lex Fridman",
+        "title": "AI Researcher & Podcast Host",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@lexfridman"},
+        },
+    },
+    {
+        "id": "demis_hassabis",
+        "name": "Demis Hassabis",
+        "title": "CEO of Google DeepMind, Nobel Prize in Chemistry",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@demishassabis"},
+        },
+    },
+    {
+        "id": "dario_amodei",
+        "name": "Dario Amodei",
+        "title": "CEO of Anthropic",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@DarioAmodei"},
+        },
+    },
+    {
+        "id": "jeff_bezos",
+        "name": "Jeff Bezos",
+        "title": "Founder of Amazon & Blue Origin",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@JeffBezos"},
+            "wikiquote": {"slug": "Jeff_Bezos"},
+        },
+    },
+    {
+        "id": "feifei_li",
+        "name": "Fei-Fei Li",
+        "title": "AI Professor at Stanford, Creator of ImageNet",
+        "stance": "none",
+        "domain": "tech",
+        "sources": {
+            "x": {"handle": "@drfeifei"},
+        },
+    },
+
+    # ==================== International ====================
+    {
+        "id": "zelenskyy",
+        "name": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "stance": "none",
+        "domain": "politics",
+        "sources": {
+            "x": {"handle": "@ZelenskyyUa"},
+            "speech": {"url": "https://www.president.gov.ua/en"},
+            "wikiquote": {"slug": "Volodymyr_Zelenskyy"},
+        },
+    },
+    {
+        "id": "greta",
+        "name": "Greta Thunberg",
+        "title": "Climate Activist",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "x": {"handle": "@GretaThunberg"},
+            "speech": {"url": "https://www.un.org/en/climatechange"},
+            "wikiquote": {"slug": "Greta_Thunberg"},
+        },
+    },
+    {
+        "id": "churchill",
+        "name": "Winston Churchill",
+        "title": "Former Prime Minister of the United Kingdom",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Winston_Churchill"},
+            "azquotes": {"id": 2886},
+        },
+    },
+
+    # ==================== Philosophers & Thinkers ====================
+    {
+        "id": "socrates",
+        "name": "Socrates",
+        "title": "Greek Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Socrates"},
+            "azquotes": {"id": 13382},
+        },
+    },
+    {
+        "id": "plato",
+        "name": "Plato",
+        "title": "Greek Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Plato"},
+            "azquotes": {"id": 11725},
+        },
+    },
+    {
+        "id": "aristotle",
+        "name": "Aristotle",
+        "title": "Greek Philosopher & Scientist",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Aristotle"},
+            "azquotes": {"id": 838},
+        },
+    },
+    {
+        "id": "confucius",
+        "name": "Confucius",
+        "title": "Chinese Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Confucius"},
+            "azquotes": {"id": 3589},
+        },
+    },
+    {
+        "id": "laozi",
+        "name": "Lao Tzu",
+        "title": "Chinese Philosopher, Founder of Taoism",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Lao_Tzu"},
+            "azquotes": {"id": 7686},
+        },
+    },
+    {
+        "id": "nietzsche",
+        "name": "Friedrich Nietzsche",
+        "title": "German Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Friedrich_Nietzsche"},
+            "azquotes": {"id": 10229},
+        },
+    },
+    {
+        "id": "voltaire",
+        "name": "Voltaire",
+        "title": "French Philosopher & Writer",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Voltaire"},
+            "azquotes": {"id": 16260},
+        },
+    },
+    {
+        "id": "rousseau",
+        "name": "Jean-Jacques Rousseau",
+        "title": "French Philosopher",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Jean-Jacques_Rousseau"},
+        },
+    },
+    {
+        "id": "kant",
+        "name": "Immanuel Kant",
+        "title": "German Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Immanuel_Kant"},
+            "azquotes": {"id": 6721},
+        },
+    },
+    {
+        "id": "descartes",
+        "name": "René Descartes",
+        "title": "French Philosopher & Mathematician",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Ren%C3%A9_Descartes"},
+            "azquotes": {"id": 3736},
+        },
+    },
+    {
+        "id": "marx",
+        "name": "Karl Marx",
+        "title": "German Philosopher & Economist",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Karl_Marx"},
+            "azquotes": {"id": 7892},
+        },
+    },
+    {
+        "id": "freud",
+        "name": "Sigmund Freud",
+        "title": "Austrian Neurologist, Founder of Psychoanalysis",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Sigmund_Freud"},
+            "azquotes": {"id": 4931},
+        },
+    },
+    {
+        "id": "camus",
+        "name": "Albert Camus",
+        "title": "French Philosopher & Author",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Albert_Camus"},
+            "azquotes": {"id": 2218},
+        },
+    },
+    {
+        "id": "beauvoir",
+        "name": "Simone de Beauvoir",
+        "title": "French Philosopher & Writer",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Simone_de_Beauvoir"},
+        },
+    },
+    {
+        "id": "arendt",
+        "name": "Hannah Arendt",
+        "title": "German-American Political Philosopher",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Hannah_Arendt"},
+        },
+    },
+    {
+        "id": "sun_tzu",
+        "name": "Sun Tzu",
+        "title": "Chinese Military Strategist & Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Sun_Tzu"},
+            "azquotes": {"id": 14256},
+        },
+    },
+    {
+        "id": "seneca",
+        "name": "Seneca",
+        "title": "Roman Stoic Philosopher",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Seneca"},
+            "azquotes": {"id": 13170},
+        },
+    },
+    {
+        "id": "montesquieu",
+        "name": "Montesquieu",
+        "title": "French Political Philosopher",
+        "stance": "left",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Montesquieu"},
+        },
+    },
+
+    # ==================== Scientists ====================
+    {
+        "id": "einstein",
+        "name": "Albert Einstein",
+        "title": "Theoretical Physicist, Nobel Prize Winner",
+        "stance": "left",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Albert_Einstein"},
+            "azquotes": {"id": 4087},
+        },
+    },
+    {
+        "id": "newton",
+        "name": "Isaac Newton",
+        "title": "English Mathematician & Physicist",
+        "stance": "none",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Isaac_Newton"},
+            "azquotes": {"id": 10271},
+        },
+    },
+    {
+        "id": "curie",
+        "name": "Marie Curie",
+        "title": "Physicist & Chemist, Two-Time Nobel Prize Winner",
+        "stance": "none",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Marie_Curie"},
+            "azquotes": {"id": 3614},
+        },
+    },
+    {
+        "id": "tesla_nikola",
+        "name": "Nikola Tesla",
+        "title": "Serbian-American Inventor & Engineer",
+        "stance": "none",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Nikola_Tesla"},
+            "azquotes": {"id": 14822},
+        },
+    },
+    {
+        "id": "darwin",
+        "name": "Charles Darwin",
+        "title": "English Naturalist",
+        "stance": "none",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Charles_Darwin"},
+            "azquotes": {"id": 3574},
+        },
+    },
+    {
+        "id": "hawking",
+        "name": "Stephen Hawking",
+        "title": "Theoretical Physicist",
+        "stance": "left",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Stephen_Hawking"},
+            "azquotes": {"id": 5968},
+        },
+    },
+    {
+        "id": "galileo",
+        "name": "Galileo Galilei",
+        "title": "Italian Astronomer & Physicist",
+        "stance": "none",
+        "domain": "science",
+        "sources": {
+            "wikiquote": {"slug": "Galileo_Galilei"},
+            "azquotes": {"id": 5116},
+        },
+    },
+
+    # ==================== World Leaders ====================
+    {
+        "id": "mandela",
+        "name": "Nelson Mandela",
+        "title": "Former President of South Africa, Anti-Apartheid Leader",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Nelson_Mandela"},
+            "azquotes": {"id": 8264},
+        },
+    },
+    {
+        "id": "gandhi",
+        "name": "Mahatma Gandhi",
+        "title": "Leader of Indian Independence Movement",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Mahatma_Gandhi"},
+            "azquotes": {"id": 5097},
+        },
+    },
+    {
+        "id": "malcolm_x",
+        "name": "Malcolm X",
+        "title": "Civil Rights Activist",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Malcolm_X"},
+            "azquotes": {"id": 8328},
+        },
+    },
+    {
+        "id": "dalai_lama",
+        "name": "Dalai Lama",
+        "title": "Spiritual Leader of Tibetan Buddhism, Nobel Peace Prize",
+        "stance": "none",
+        "domain": "other",
+        "sources": {
+            "wikiquote": {"slug": "Dalai_Lama_XIV"},
+            "azquotes": {"id": 3446},
+        },
+    },
+    {
+        "id": "merkel",
+        "name": "Angela Merkel",
+        "title": "Former Chancellor of Germany",
+        "stance": "left",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Angela_Merkel"},
+        },
+    },
+    {
+        "id": "thatcher",
+        "name": "Margaret Thatcher",
+        "title": "Former Prime Minister of the United Kingdom",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Margaret_Thatcher"},
+            "azquotes": {"id": 14740},
+        },
+    },
+    {
+        "id": "teddy_roosevelt",
+        "name": "Theodore Roosevelt",
+        "title": "26th President of the United States",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Theodore_Roosevelt"},
+            "azquotes": {"id": 14804},
+        },
+    },
+    {
+        "id": "de_gaulle",
+        "name": "Charles de Gaulle",
+        "title": "Former President of France",
+        "stance": "right",
+        "domain": "politics",
+        "sources": {
+            "wikiquote": {"slug": "Charles_de_Gaulle"},
+        },
+    },
+
+    # ==================== Artists & Writers ====================
+    {
+        "id": "davinci",
+        "name": "Leonardo da Vinci",
+        "title": "Italian Renaissance Polymath",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Leonardo_da_Vinci"},
+            "azquotes": {"id": 7653},
+        },
+    },
+    {
+        "id": "picasso",
+        "name": "Pablo Picasso",
+        "title": "Spanish Painter & Sculptor",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Pablo_Picasso"},
+            "azquotes": {"id": 11492},
+        },
+    },
+    {
+        "id": "kahlo",
+        "name": "Frida Kahlo",
+        "title": "Mexican Painter",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Frida_Kahlo"},
+        },
+    },
+    {
+        "id": "angelou",
+        "name": "Maya Angelou",
+        "title": "American Poet & Civil Rights Activist",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Maya_Angelou"},
+            "azquotes": {"id": 347},
+        },
+    },
+    {
+        "id": "woolf",
+        "name": "Virginia Woolf",
+        "title": "English Writer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Virginia_Woolf"},
+            "azquotes": {"id": 16358},
+        },
+    },
+    {
+        "id": "hemingway",
+        "name": "Ernest Hemingway",
+        "title": "American Novelist, Nobel Prize in Literature",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Ernest_Hemingway"},
+            "azquotes": {"id": 5964},
+        },
+    },
+    {
+        "id": "twain",
+        "name": "Mark Twain",
+        "title": "American Author & Humorist",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Mark_Twain"},
+            "azquotes": {"id": 14987},
+        },
+    },
+    {
+        "id": "shakespeare",
+        "name": "William Shakespeare",
+        "title": "English Playwright & Poet",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "William_Shakespeare"},
+            "azquotes": {"id": 13387},
+        },
+    },
+    {
+        "id": "tolstoy",
+        "name": "Leo Tolstoy",
+        "title": "Russian Writer & Philosopher",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Leo_Tolstoy"},
+            "azquotes": {"id": 14888},
+        },
+    },
+    {
+        "id": "tagore",
+        "name": "Rabindranath Tagore",
+        "title": "Indian Poet, Nobel Prize in Literature",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Rabindranath_Tagore"},
+            "azquotes": {"id": 14446},
+        },
+    },
+
+    # ==================== Entertainment - Classic Icons ====================
+    {
+        "id": "chaplin",
+        "name": "Charlie Chaplin",
+        "title": "English Comic Actor & Filmmaker",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Charlie_Chaplin"},
+            "azquotes": {"id": 2823},
+        },
+    },
+    {
+        "id": "monroe",
+        "name": "Marilyn Monroe",
+        "title": "American Actress & Model",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Marilyn_Monroe"},
+            "azquotes": {"id": 9465},
+        },
+    },
+    {
+        "id": "hepburn_audrey",
+        "name": "Audrey Hepburn",
+        "title": "British Actress & Humanitarian",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Audrey_Hepburn"},
+            "azquotes": {"id": 851},
+        },
+    },
+    {
+        "id": "brando",
+        "name": "Marlon Brando",
+        "title": "American Actor",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Marlon_Brando"},
+            "azquotes": {"id": 1737},
+        },
+    },
+    {
+        "id": "dean_james",
+        "name": "James Dean",
+        "title": "American Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "James_Dean"},
+            "azquotes": {"id": 6497},
+        },
+    },
+
+    # ==================== Entertainment - Actors ====================
+    {
+        "id": "hanks",
+        "name": "Tom Hanks",
+        "title": "American Actor & Filmmaker",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Tom_Hanks"},
+            "azquotes": {"id": 5730},
+        },
+    },
+    {
+        "id": "freeman",
+        "name": "Morgan Freeman",
+        "title": "American Actor & Narrator",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Morgan_Freeman"},
+            "azquotes": {"id": 4870},
+        },
+    },
+    {
+        "id": "denzel",
+        "name": "Denzel Washington",
+        "title": "American Actor & Director",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Denzel_Washington"},
+            "azquotes": {"id": 3626},
+        },
+    },
+    {
+        "id": "de_niro",
+        "name": "Robert De Niro",
+        "title": "American Actor",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Robert_De_Niro"},
+            "azquotes": {"id": 12198},
+        },
+    },
+    {
+        "id": "pacino",
+        "name": "Al Pacino",
+        "title": "American Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Al_Pacino"},
+            "azquotes": {"id": 392},
+        },
+    },
+    {
+        "id": "jackman",
+        "name": "Hugh Jackman",
+        "title": "Australian Actor & Singer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Hugh_Jackman"},
+            "azquotes": {"id": 6327},
+        },
+    },
+
+    # ==================== Entertainment - Musicians ====================
+    {
+        "id": "lennon",
+        "name": "John Lennon",
+        "title": "English Singer-Songwriter, The Beatles",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "John_Lennon"},
+            "azquotes": {"id": 7584},
+        },
+    },
+    {
+        "id": "elvis",
+        "name": "Elvis Presley",
+        "title": "American Singer, King of Rock and Roll",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Elvis_Presley"},
+            "azquotes": {"id": 4183},
+        },
+    },
+    {
+        "id": "mj",
+        "name": "Michael Jackson",
+        "title": "American Singer, King of Pop",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Michael_Jackson"},
+            "azquotes": {"id": 9209},
+        },
+    },
+    {
+        "id": "dylan",
+        "name": "Bob Dylan",
+        "title": "American Singer-Songwriter, Nobel Prize in Literature",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Bob_Dylan"},
+            "azquotes": {"id": 1674},
+        },
+    },
+    {
+        "id": "mercury",
+        "name": "Freddie Mercury",
+        "title": "British Singer-Songwriter, Queen",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Freddie_Mercury"},
+            "azquotes": {"id": 4792},
+        },
+    },
+    {
+        "id": "bowie",
+        "name": "David Bowie",
+        "title": "English Singer-Songwriter & Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "David_Bowie"},
+            "azquotes": {"id": 1710},
+        },
+    },
+    {
+        "id": "marley",
+        "name": "Bob Marley",
+        "title": "Jamaican Singer-Songwriter, Reggae Legend",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Bob_Marley"},
+            "azquotes": {"id": 8045},
+        },
+    },
+    {
+        "id": "sinatra",
+        "name": "Frank Sinatra",
+        "title": "American Singer & Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Frank_Sinatra"},
+            "azquotes": {"id": 13542},
+        },
+    },
+    {
+        "id": "prince",
+        "name": "Prince",
+        "title": "American Singer-Songwriter & Multi-Instrumentalist",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Prince_(musician)"},
+            "azquotes": {"id": 12010},
+        },
+    },
+
+    # ==================== Entertainment - Comedians ====================
+    {
+        "id": "robin_williams",
+        "name": "Robin Williams",
+        "title": "American Actor & Comedian",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Robin_Williams"},
+            "azquotes": {"id": 12578},
+        },
+    },
+    {
+        "id": "carrey",
+        "name": "Jim Carrey",
+        "title": "Canadian-American Actor & Comedian",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Jim_Carrey"},
+            "azquotes": {"id": 6908},
+        },
+    },
+    {
+        "id": "chris_rock",
+        "name": "Chris Rock",
+        "title": "American Comedian & Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Chris_Rock"},
+            "azquotes": {"id": 2965},
+        },
+    },
+
+    # ==================== Entertainment - Directors ====================
+    {
+        "id": "spielberg",
+        "name": "Steven Spielberg",
+        "title": "American Film Director & Producer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Steven_Spielberg"},
+            "azquotes": {"id": 14232},
+        },
+    },
+    {
+        "id": "scorsese",
+        "name": "Martin Scorsese",
+        "title": "American Film Director & Producer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Martin_Scorsese"},
+            "azquotes": {"id": 9096},
+        },
+    },
+    {
+        "id": "nolan",
+        "name": "Christopher Nolan",
+        "title": "British-American Film Director",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Christopher_Nolan"},
+            "azquotes": {"id": 10277},
+        },
+    },
+    {
+        "id": "hitchcock",
+        "name": "Alfred Hitchcock",
+        "title": "English Film Director, Master of Suspense",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Alfred_Hitchcock"},
+            "azquotes": {"id": 6114},
+        },
+    },
+
+    # ==================== Entertainment - Other ====================
+    {
+        "id": "disney",
+        "name": "Walt Disney",
+        "title": "American Animator & Entrepreneur",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Walt_Disney"},
+            "azquotes": {"id": 3899},
+        },
+    },
+    {
+        "id": "stan_lee",
+        "name": "Stan Lee",
+        "title": "American Comic Book Writer & Publisher",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "wikiquote": {"slug": "Stan_Lee"},
+            "azquotes": {"id": 13037},
+        },
+    },
+    {
+        "id": "ryan_reynolds",
+        "name": "Ryan Reynolds",
+        "title": "Actor & Entrepreneur",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@VancityReynolds"},
+        },
+    },
+    {
+        "id": "zendaya",
+        "name": "Zendaya",
+        "title": "Actress & Singer",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@Zendaya"},
+        },
+    },
+    {
+        "id": "dua_lipa",
+        "name": "Dua Lipa",
+        "title": "Singer-Songwriter",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@DUALIPA"},
+        },
+    },
+    {
+        "id": "billie_eilish",
+        "name": "Billie Eilish",
+        "title": "Singer-Songwriter",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@billieeilish"},
+        },
+    },
+    {
+        "id": "bad_bunny",
+        "name": "Bad Bunny",
+        "title": "Puerto Rican Rapper & Singer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@BadBunnyPR"},
+        },
+    },
+    {
+        "id": "drake",
+        "name": "Drake",
+        "title": "Canadian Rapper & Singer",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@Drake"},
+            "wikiquote": {"slug": "Drake_(rapper)"},
+        },
+    },
+    {
+        "id": "ariana_grande",
+        "name": "Ariana Grande",
+        "title": "Singer-Songwriter & Actress",
+        "stance": "left",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@ArianaGrande"},
+        },
+    },
+    {
+        "id": "olivia_rodrigo",
+        "name": "Olivia Rodrigo",
+        "title": "Singer-Songwriter & Actress",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@oliviarodrigo"},
+        },
+    },
+    {
+        "id": "shakira",
+        "name": "Shakira",
+        "title": "Colombian Singer-Songwriter",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@shakira"},
+            "wikiquote": {"slug": "Shakira"},
+        },
+    },
+    {
+        "id": "chris_hemsworth",
+        "name": "Chris Hemsworth",
+        "title": "Australian Actor",
+        "stance": "none",
+        "domain": "entertainment",
+        "sources": {
+            "x": {"handle": "@chrishemsworth"},
+        },
+    },
+
+    # ==================== Sports - Basketball ====================
+    {
+        "id": "kobe",
+        "name": "Kobe Bryant",
+        "title": "American Basketball Player, 5x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Kobe_Bryant"},
+            "azquotes": {"id": 19383},
+        },
+    },
+    {
+        "id": "shaq",
+        "name": "Shaquille O'Neal",
+        "title": "American Basketball Player, 4x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Shaquille_O%27Neal"},
+            "azquotes": {"id": 13395},
+        },
+    },
+    {
+        "id": "kareem",
+        "name": "Kareem Abdul-Jabbar",
+        "title": "American Basketball Player, 6x NBA MVP",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Kareem_Abdul-Jabbar"},
+            "azquotes": {"id": 6524},
+        },
+    },
+    {
+        "id": "magic_johnson",
+        "name": "Magic Johnson",
+        "title": "American Basketball Player, 5x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Magic_Johnson"},
+            "azquotes": {"id": 8143},
+        },
+    },
+    {
+        "id": "larry_bird",
+        "name": "Larry Bird",
+        "title": "American Basketball Player, 3x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Larry_Bird"},
+            "azquotes": {"id": 7339},
+        },
+    },
+    {
+        "id": "wilt",
+        "name": "Wilt Chamberlain",
+        "title": "American Basketball Player, 2x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Wilt_Chamberlain"},
+            "azquotes": {"id": 15866},
+        },
+    },
+    {
+        "id": "bill_russell",
+        "name": "Bill Russell",
+        "title": "American Basketball Player, 11x NBA Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Bill_Russell"},
+            "azquotes": {"id": 1273},
+        },
+    },
+
+    # ==================== Sports - Soccer ====================
+    {
+        "id": "pele",
+        "name": "Pele",
+        "title": "Brazilian Footballer, 3x World Cup Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Pel%C3%A9"},
+            "azquotes": {"id": 11316},
+        },
+    },
+    {
+        "id": "maradona",
+        "name": "Diego Maradona",
+        "title": "Argentine Footballer, World Cup Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Diego_Maradona"},
+            "azquotes": {"id": 8189},
+        },
+    },
+    {
+        "id": "messi",
+        "name": "Lionel Messi",
+        "title": "Argentine Footballer, 8x Ballon d'Or Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Lionel_Messi"},
+            "azquotes": {"id": 9259},
+        },
+    },
+    {
+        "id": "ronaldo",
+        "name": "Cristiano Ronaldo",
+        "title": "Portuguese Footballer, 5x Ballon d'Or Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Cristiano_Ronaldo"},
+            "azquotes": {"id": 3189},
+        },
+    },
+    {
+        "id": "zidane",
+        "name": "Zinedine Zidane",
+        "title": "French Footballer, World Cup Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Zinedine_Zidane"},
+            "azquotes": {"id": 16604},
+        },
+    },
+    {
+        "id": "beckham",
+        "name": "David Beckham",
+        "title": "English Footballer",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "David_Beckham"},
+            "azquotes": {"id": 2170},
+        },
+    },
+
+    # ==================== Sports - Tennis ====================
+    {
+        "id": "federer",
+        "name": "Roger Federer",
+        "title": "Swiss Tennis Player, 20x Grand Slam Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Roger_Federer"},
+            "azquotes": {"id": 4642},
+        },
+    },
+    {
+        "id": "nadal",
+        "name": "Rafael Nadal",
+        "title": "Spanish Tennis Player, 22x Grand Slam Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Rafael_Nadal"},
+            "azquotes": {"id": 10078},
+        },
+    },
+    {
+        "id": "djokovic",
+        "name": "Novak Djokovic",
+        "title": "Serbian Tennis Player, 24x Grand Slam Winner",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Novak_Djokovic"},
+            "azquotes": {"id": 4046},
+        },
+    },
+    {
+        "id": "billie_jean",
+        "name": "Billie Jean King",
+        "title": "American Tennis Player, 39x Grand Slam Winner",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Billie_Jean_King"},
+            "azquotes": {"id": 1215},
+        },
+    },
+
+    # ==================== Sports - Boxing ====================
+    {
+        "id": "tyson",
+        "name": "Mike Tyson",
+        "title": "American Boxer, Heavyweight Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Mike_Tyson"},
+            "azquotes": {"id": 9444},
+        },
+    },
+
+    # ==================== Sports - Other ====================
+    {
+        "id": "bolt",
+        "name": "Usain Bolt",
+        "title": "Jamaican Sprinter, 8x Olympic Gold Medalist",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Usain_Bolt"},
+            "azquotes": {"id": 15660},
+        },
+    },
+    {
+        "id": "phelps",
+        "name": "Michael Phelps",
+        "title": "American Swimmer, 23x Olympic Gold Medalist",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Michael_Phelps"},
+            "azquotes": {"id": 9314},
+        },
+    },
+    {
+        "id": "tiger",
+        "name": "Tiger Woods",
+        "title": "American Golfer, 15x Major Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Tiger_Woods"},
+            "azquotes": {"id": 15028},
+        },
+    },
+    {
+        "id": "babe_ruth",
+        "name": "Babe Ruth",
+        "title": "American Baseball Player, 7x World Series Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Babe_Ruth"},
+            "azquotes": {"id": 1201},
+        },
+    },
+    {
+        "id": "jackie_robinson",
+        "name": "Jackie Robinson",
+        "title": "American Baseball Player, Civil Rights Pioneer",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Jackie_Robinson"},
+            "azquotes": {"id": 6441},
+        },
+    },
+    {
+        "id": "senna",
+        "name": "Ayrton Senna",
+        "title": "Brazilian F1 Driver, 3x World Champion",
+        "stance": "none",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Ayrton_Senna"},
+            "azquotes": {"id": 1375},
+        },
+    },
+    {
+        "id": "hamilton",
+        "name": "Lewis Hamilton",
+        "title": "British F1 Driver, 7x World Champion",
+        "stance": "left",
+        "domain": "sports",
+        "sources": {
+            "wikiquote": {"slug": "Lewis_Hamilton"},
+            "azquotes": {"id": 5765},
+        },
+    },
+]

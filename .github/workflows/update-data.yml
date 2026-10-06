@@ -1,0 +1,119 @@
+name: Update quote data
+
+# 双模式定时更新 X (Twitter) 语录数据并发布到 GitHub Pages:
+#   poll: 每 3 小时用 Folo 公开 API 拉取最新 10 条（增量，防漏帖）
+#   full: 每日一次用 Folo CLI 分页全量拉取（校准兜底）
+# 运行结束后将 xsaid.json + xrss_cursor.json 状态提交回仓库，
+# Pages 随之自动发布，App 端即可拉取到最新数据。
+
+on:
+  schedule:
+    # UTC 0:30/3:30/6:30/... 每 3 小时（北京时间 8:30/11:30/14:30/...）
+    - cron: '30 */3 * * *'
+    # UTC 01:00 每日全量校准（北京时间 09:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '运行模式: poll=公开API增量 / full=CLI全量'
+        type: choice
+        options:
+          - poll
+          - full
+        default: poll
+
+permissions:
+  contents: write
+
+# 同一时间只允许一个更新任务，后到的排队等待（不取消，避免丢数据窗口）
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 1 * * *" ]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=poll" >> "$GITHUB_OUTPUT"
+          fi
+          echo "运行模式: ${{ steps.mode.outputs.mode }}"
+
+      - name: Fetch X quotes (poll - 公开 API 增量)
+        if: steps.mode.outputs.mode == 'poll'
+        run: |
+          ok=0
+          for i in 1 2 3; do
+            echo "--- 第 $i/3 次尝试 ---"
+            if python3 xrss.py; then ok=1; break; fi
+            echo "第 $i 次失败，30 秒后重试"
+            sleep 30
+          done
+          if [ $ok -ne 1 ]; then
+            echo "::error::连续 3 次抓取失败"
+            exit 1
+          fi
+
+      - name: Fetch X quotes (full - Folo CLI 全量)
+        if: steps.mode.outputs.mode == 'full'
+        env:
+          FOLO_TOKEN: ${{ secrets.FOLO_TOKEN }}
+        run: |
+          if [ -z "$FOLO_TOKEN" ]; then
+            echo "::warning::未配置 FOLO_TOKEN secret，跳过全量校准（数据由高频轮询保障）"
+            exit 0
+          fi
+          ok=0
+          for i in 1 2; do
+            echo "--- 第 $i/2 次尝试 ---"
+            if python3 xrss.py --cli; then ok=1; break; fi
+            echo "第 $i 次失败，60 秒后重试"
+            sleep 60
+          done
+          if [ $ok -ne 1 ]; then
+            echo "::error::连续 2 次全量抓取失败"
+            exit 1
+          fi
+
+      - name: Validate data
+        run: python3 validate_data.py xsaid.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add xsaid.json xrss_cursor.json
+          if git diff --cached --quiet; then
+            if [ "${{ steps.mode.outputs.mode }}" = "full" ]; then
+              # 每日全量任务即使无新数据也产生心跳提交，
+              # 防止仓库 60 天无活动导致 scheduled workflow 被自动停用
+              git commit --allow-empty -m "heartbeat: no new data ($(date -u +%FT%TZ))"
+              git push
+            else
+              echo "无新数据，跳过提交"
+            fi
+          else
+            git commit -m "data update: $(date -u +%FT%TZ)"
+            git push
+          fi
