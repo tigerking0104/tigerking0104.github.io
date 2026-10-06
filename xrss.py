@@ -25,6 +25,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -281,27 +282,43 @@ def fetch_entries_cli():
             cmd.extend(["--cursor", cursor])
 
         print(f"  [CLI] 第 {page} 页 (cursor={cursor or '初始'})...")
-        try:
-            result = subprocess.run(
-                cmd, capture_output=True, text=True, timeout=60, check=True)
-            raw = json.loads(result.stdout)
-        except FileNotFoundError:
-            print("错误: 未找到 npx，请先安装 Node.js")
-            sys.exit(1)
-        except subprocess.CalledProcessError as e:
-            print(f"错误: folocli 执行失败: {e.stderr[:200]}")
-            sys.exit(1)
-        except json.JSONDecodeError:
-            print(f"错误: folocli 返回非 JSON 数据: {result.stdout[:200]}")
+
+        # 单页最多尝试 3 次（网络中断/限流可恢复），全部失败才中止
+        data = None
+        for attempt in range(1, 4):
+            raw = None
+            try:
+                result = subprocess.run(
+                    cmd, capture_output=True, text=True, timeout=90, check=True)
+                raw = json.loads(result.stdout)
+            except FileNotFoundError:
+                print("错误: 未找到 npx，请先安装 Node.js")
+                sys.exit(1)
+            except subprocess.TimeoutExpired:
+                print(f"  [CLI] 第 {page} 页第 {attempt} 次尝试超时")
+            except subprocess.CalledProcessError as e:
+                print(f"  [CLI] 第 {page} 页第 {attempt} 次尝试失败: "
+                      f"{(e.stderr or '')[:200]}")
+            except json.JSONDecodeError:
+                print(f"  [CLI] 第 {page} 页第 {attempt} 次尝试返回非 JSON: "
+                      f"{result.stdout[:200]}")
+
+            if raw is not None and raw.get("ok"):
+                data = raw.get("data", {})
+                break
+            if raw is not None and not raw.get("ok"):
+                err = raw.get("error", {})
+                print(f"  [CLI] 第 {page} 页第 {attempt} 次尝试返回错误: "
+                      f"{err.get('code')} - {err.get('message')}")
+
+            if attempt < 3:
+                time.sleep(3 * attempt)  # 退避重试: 3s / 6s
+
+        if data is None:
+            print(f"错误: 第 {page} 页连续 3 次失败，中止本次运行")
             sys.exit(1)
 
-        # 解析 CLI 输出信封
-        if not raw.get("ok"):
-            err = raw.get("error", {})
-            print(f"错误: folocli 返回错误: {err.get('code')} - {err.get('message')}")
-            sys.exit(1)
-
-        data = raw.get("data", {})
+        time.sleep(1)  # 页间间隔，防止限流
         timeline_items = data.get("entries", [])
         next_cursor = data.get("nextCursor")
         has_next = data.get("hasNext", False)
@@ -441,16 +458,24 @@ def process_entries(entries, handle_map, seen_ids, debug=False):
     处理条目列表：匹配人物、去重、分组
 
     Returns:
-        (new_persons_quotes, updated_seen_ids, new_quote_ids, unmatched_info, video_filtered)
+        (new_persons_quotes, updated_seen_ids, new_quote_ids, unmatched_info,
+         video_filtered, empty_filtered)
     """
     new_entries = []
     unmatched = []  # 记录未匹配的条目信息
     video_filtered = 0  # 视频过滤计数
+    empty_filtered = 0  # 空文本过滤计数（纯图片/无内容帖子）
 
     for entry in entries:
         # 过滤含视频的帖子
         if is_video_entry(entry):
             video_filtered += 1
+            continue
+
+        # 过滤无有效文本的帖子（避免生成空语录，如纯图片推文）
+        text = strip_html(entry.get("content", "")) or (entry.get("title") or "")
+        if not text.strip():
+            empty_filtered += 1
             continue
 
         handle = extract_handle(entry)
@@ -489,7 +514,7 @@ def process_entries(entries, handle_map, seen_ids, debug=False):
         seen_ids.add(quote_id)
         new_quote_ids.append(quote_id)
 
-    return new_persons_quotes, seen_ids, new_quote_ids, unmatched, video_filtered
+    return new_persons_quotes, seen_ids, new_quote_ids, unmatched, video_filtered, empty_filtered
 
 
 def main():
@@ -534,7 +559,7 @@ def main():
         print("-" * 60)
 
     # 处理条目
-    new_persons_quotes, seen_ids, new_quote_ids, unmatched, video_filtered = process_entries(
+    new_persons_quotes, seen_ids, new_quote_ids, unmatched, video_filtered, empty_filtered = process_entries(
         entries, handle_map, seen_ids)
 
     # 打印未匹配条目（用于调试）
@@ -570,8 +595,9 @@ def main():
     for p in new_persons_quotes.values():
         for q in p["quotes"]:
             matched_ids.add(q["id"])
-    already_count = len(entries) - new_count - len(unmatched) - video_filtered
-    print(f"新条目: {new_count} 条（跳过 {already_count} 条已获取, {len(unmatched)} 条未匹配, {video_filtered} 条含视频过滤）\n")
+    already_count = len(entries) - new_count - len(unmatched) - video_filtered - empty_filtered
+    print(f"新条目: {new_count} 条（跳过 {already_count} 条已获取, {len(unmatched)} 条未匹配, "
+          f"{video_filtered} 条含视频过滤, {empty_filtered} 条无文本过滤）\n")
 
     # 合并到已有数据
     existing_data = load_existing_data()
