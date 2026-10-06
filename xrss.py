@@ -38,7 +38,7 @@ FOLO_API_URL = f"https://api.folo.is/feeds?id={FOLO_FEED_ID}&entriesLimit=10"
 
 # Folo CLI 分页参数
 CLI_BATCH_SIZE = 50  # 每次 CLI 请求的条目数
-CLI_MAX_PAGES = 20   # 最多翻页数（安全上限，防止无限循环）
+CLI_MAX_PAGES = 100  # 最多翻页数（安全上限，防止无限循环；100页=5000条，用于回补历史缺口）
 
 # 输出文件路径（合并到主数据文件，由 GitHub Pages 对外提供）
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
