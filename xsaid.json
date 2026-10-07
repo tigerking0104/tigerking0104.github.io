@@ -3440,6 +3440,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "haley_x_2107853633186410642",
+        "content": "Shame on you for trying to blow a kiss and slap Israelis in the face at the same time.On October 7, Hamas raped, burned, and murdered Israelis and Americans in front of their loved ones. They kidnapped others and tortured them for months.This is antisemitism, no matter how you try to put a bow on it. Israelis have every right to defend themselves. If this happened in the U.S., you can bet we would defend ourselves too.Mayor Zohran Kwame Mamdani: This day is profoundly painful for so many New Yorkers. It marks three years since the horrific war crimes of October 7. On that day, Hamas killed more than 1,100 Israelis and abducted 251 others. We grieve alongside our many friends and neighbors who still carry that unthinkable",
+        "date": "2026-10-07T15:20:42Z",
+        "source": "x",
+        "source_url": "https://x.com/NikkiHaley/status/2107853633186410642",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "haley_x_2107579839540548024",
         "content": "The UN \"Human Rights Council\" sided with Russia against countries that sanction human rights abusers. Yet another example of why the UN is dysfunction...",
         "date": "2026-10-06T21:12:45Z",
@@ -6712,6 +6721,42 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2107853835528274320",
+        "content": "Starlink Mobile (direct-to-cell) V2 satellites are incredible. This @SpaceX constellation will enable more than 100 times the bandwidth of our current V1 system!X Freeze: SpaceX just got a massive FCC green light for Starlink MobileThe FCC has approved SpaceX to launch and operate up to 15,000 next-generation satellites built for direct-to-phone connectivityThe new system is designed to:• Target peak speeds of up to 150 Mbps per user•",
+        "date": "2026-10-07T15:21:31Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107853835528274320",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107851390710415525",
+        "content": "RT Elon MuskRe @xenocosmography TITS could be funded from merch sales alone!",
+        "date": "2026-10-07T15:11:10Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107851390710415525",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107852404570062983",
+        "content": "RT Yun-Ta TsaiAfter many years in top machine learning organizations, with friends at frontier labs, I still consider Tesla’s ML engineers the best—the only ones I would trust with my life.Unsatisfied with theory, they scrutinize every detail until it is proven in reality. They demand real-world miles, not charts. This culture exists nowhere else.This week marks another anniversary at Tesla. I am honored to work with you all for many years to come.",
+        "date": "2026-10-07T15:06:07Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107852404570062983",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107849623364895151",
+        "content": "Grok @Bot will use whatever achieves the best outcome for users. Simple questions will route to small, fast models. Questions with complex answers will route to large models.Robert Scoble: Grok goes open. Holy shit.",
+        "date": "2026-10-07T15:04:46Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107849623364895151",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2107644163219202213",
         "content": "RT Larsen Cundric: NEW: @bot tagging just went live. Reply to any post: > @bot add this to my Notion reading list > @bot remind me to read this tomorr...",
@@ -21877,6 +21922,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2107851532519493864",
+        "content": "POST OP-ED: Three Years After Oct. 7, the Haters are Still Celebrating Terrorhttps://hannity.com/media-room/post-op-ed-three-years-after-oct-7-the-haters-are-still-celebrating-terror/",
+        "date": "2026-10-07T15:12:21Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2107851532519493864",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2107587769270694245",
         "content": "POST OP-ED: Mamdani’s ‘Fast Track’ to NYC Neighborhood Destruction https://hannity.com/media-room/post-op-ed-mamdanis-fast-track-to-nyc-neighborhoo...",
         "date": "2026-10-06T21:44:15Z",
@@ -22655,6 +22709,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "coulter_x_2107857440632897609",
+        "content": "Amazing ..MARK SIMONE: Another great example of how the NY Times readers don’t get the real story:",
+        "date": "2026-10-07T15:35:50Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107857440632897609",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107855174504968305",
+        "content": "I'm coming up on the @MarkSimoneNY show on 710 WOR-NY in MINUTES!",
+        "date": "2026-10-07T15:26:50Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107855174504968305",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "coulter_x_2106582644775436391",
         "content": "I wish we could still retweet on Twitter. There's nothing to add. This tweet is perfect.",
