@@ -219,13 +219,6 @@ def check_cli_auth():
     cmd = ["npx", "--yes", "folocli@latest", "whoami"]
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-        if result.returncode != 0:
-            print("Folo CLI 未认证，请先登录:")
-            print("  npx --yes folocli@latest login")
-            print("\n登录后会打开浏览器完成设备码认证。")
-            print("也可通过环境变量认证: export FOLO_TOKEN=<your_token>")
-            sys.exit(1)
-        return True
     except FileNotFoundError:
         print("错误: 未找到 npx，请先安装 Node.js:")
         print("  brew install node")
@@ -233,6 +226,23 @@ def check_cli_auth():
     except subprocess.TimeoutExpired:
         print("错误: folocli 超时，请检查网络连接")
         sys.exit(1)
+
+    # 解析 whoami 结果：folocli 网络失败时可能 exit 0 但 ok=false，
+    # 因此必须同时检查退出码和返回内容
+    detail = (result.stdout or result.stderr or "").strip()[:300]
+    try:
+        authed = bool(json.loads(result.stdout).get("ok"))
+    except (json.JSONDecodeError, ValueError, TypeError):
+        authed = False
+
+    if result.returncode != 0 or not authed:
+        print(f"Folo CLI 认证检查失败 (exit={result.returncode}):")
+        print(f"  {detail}")
+        print("\n可能原因: 1) FOLO_TOKEN 过期/无效  2) 网络无法访问 api.folo.is")
+        print("重新登录: npx --yes folocli@latest login")
+        print("环境变量认证: export FOLO_TOKEN=<your_token>")
+        sys.exit(1)
+    return True
 
 
 def fetch_entries_cli():
