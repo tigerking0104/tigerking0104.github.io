@@ -20077,6 +20077,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "chris_hayes_x_2107646423160226155",
+        "content": "RT @alittleleader: I cannot imagine the horror of going to your execution, experiencing severe pain, and then waking up and finding out you…",
+        "date": "2026-10-07T01:37:20Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2107646423160226155",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "chris_hayes_x_2107299327886377381",
         "content": "RT Brian Beutler: Yarvin isn’t a “streamer” so his association with our vice president and various other prominent Republicans doesn’t merit any s...",
         "date": "2026-10-06T01:23:40Z",
@@ -23819,6 +23828,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "matt_walsh_x_2107664122037072010",
+        "content": "On average, Boomers are getting paid more from Social Security than they “paid into it.” A lot more. Like double, and that’s counting inflation and interest. In raw dollars, they’ll get four to seven times what they paid in. So what about this compromise, to at least stave off insolvency and save billions: you get back what you paid in, but no more. Young families won’t be forced to finance a 250 percent return on your “investment.” That seems extremely reasonable, doesn’t it? It doesn’t go nearly as far as I would like. But it’s a very fair compromise. It completely negates any claim that you didn’t get the money back that you “paid in.” And yet I suspect that this comprise will not be satisfactory. Why is that? Because this debate actually has nothing to do with “getting back what you paid in.” The REAL demand is for a lot more than that.",
+        "date": "2026-10-07T02:47:39Z",
+        "source": "x",
+        "source_url": "https://x.com/MattWalshBlog/status/2107664122037072010",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "matt_walsh_x_2107642817543631163",
+        "content": "I would agree to a plan to phase out social security over the next 25 years, even knowing that it means the system will end right at the moment when I would start drawing a check. If that means that my kids and grandchildren aren’t subjected to this scam for their entire lives, I’m willing to take that hit. I just can’t for the life of me understand or relate to the older people who don’t feel that way and wouldn’t be willing to make the sacrifice for the sake of their descendants. Totally foreign mentality to me. I truly find it baffling. Setting my kids up for the future is like one of the only things I care about anymore.",
+        "date": "2026-10-07T01:23:00Z",
+        "source": "x",
+        "source_url": "https://x.com/MattWalshBlog/status/2107642817543631163",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "matt_walsh_x_2107450902885921053",
         "content": "There are a lot of great Boomers out there. But they didn't build this country into a superpower. They brought us the sexual revolution and the divorc...",
