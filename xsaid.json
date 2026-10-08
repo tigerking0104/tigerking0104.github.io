@@ -1067,6 +1067,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "schumer_x_2107819404075442196",
+        "content": "Today we mark 3 years since Hamas’s horrific October 7th terrorist attack on Israel, the single deadliest day in Jewish history since the Holocaust. ...",
+        "date": "2026-10-07T13:04:41Z",
+        "source": "x",
+        "source_url": "https://x.com/SenSchumer/status/2107819404075442196",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "schumer_x_2107633682186195112",
         "content": "We’ve been preparing for months to stop unconstitutional, corrupt schemes just like this one. We’re taking nothing for granted—and we’ll be ready ...",
         "date": "2026-10-07T00:46:42Z",
@@ -1280,6 +1289,24 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "warren_x_2107936706502488081",
+        "content": "We’re in a housing crisis. Instead of bringing down housing costs, the Trump Administration is weaponizing civil rights laws to make it harder for Bl...",
+        "date": "2026-10-07T20:50:49Z",
+        "source": "x",
+        "source_url": "https://x.com/SenWarren/status/2107936706502488081",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "warren_x_2107948349760692520",
+        "content": "RT The Century Foundation: NEW: The @SenateBanking Trumpflation Tracker is putting the squeeze on working families into perspective, and it includes r...",
+        "date": "2026-10-07T16:15:53Z",
+        "source": "x",
+        "source_url": "https://x.com/SenWarren/status/2107948349760692520",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "warren_x_2107634409713115359",
         "content": "Translation: Donald Trump's efforts to abolish the Education Department are under independent investigation.",
@@ -2443,6 +2470,87 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "desantis_x_2108034784534409699",
+        "content": "And we will see you on Monday night! Congrats to the Rays on sweeping the Yankees in the ALDS.",
+        "date": "2026-10-08T03:20:32Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108034784534409699",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2108030898167746581",
+        "content": "Nice feature!",
+        "date": "2026-10-08T03:05:06Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108030898167746581",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2108013314966204488",
+        "content": "Tesla dog mode keeps the car at 72 degrees (or whatever is most comfortable) so your dogs can stay in the car if you go inside some place.",
+        "date": "2026-10-08T01:55:13Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108013314966204488",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2108011308201525660",
+        "content": "Not true — the kids born during Trump’s current term get $1k but all others before or after don’t get that seed money. I’d imagine that means a re...",
+        "date": "2026-10-08T01:47:15Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108011308201525660",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2107998152595030180",
+        "content": "Delivering on promises requires foundation, leadership and courage!",
+        "date": "2026-10-08T00:54:58Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2107998152595030180",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2107958894181933343",
+        "content": "Another hoax bites the dust! The 1st DCA has written the most thorough judicial beat down of anything I’ve ever seen re: the 2024 AHCA pre-suit settl...",
+        "date": "2026-10-07T22:18:59Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2107958894181933343",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2107955059887648978",
+        "content": "Thanks so much!",
+        "date": "2026-10-07T22:03:44Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2107955059887648978",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2107954467924799779",
+        "content": "It’s not socialism for people to voluntarily contribute stock to the accounts of kids. It’s a great form of philanthropy that can help young people ...",
+        "date": "2026-10-07T22:01:23Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2107954467924799779",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2107827536843387284",
+        "content": "NW Florida communities should prepare for Isaias impacts by the end of the week.",
+        "date": "2026-10-07T13:37:00Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2107827536843387284",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "desantis_x_2107550790265286688",
         "content": "Rate decreases…",
         "date": "2026-10-06T19:17:19Z",
@@ -3600,11 +3708,101 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "cruz_x_2108008434956370404",
+        "content": "RT Andrew Kaczynski: NEW: Footage and interviews reviewed by CNN repeatedly show Abdul El-Sayed — who is set to campaign with Barack Obama — calling...",
+        "date": "2026-10-07T21:37:12Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108008434956370404",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107932301246001617",
+        "content": "RT @JGreenblattADL: .@NYCMayor, not once do you say “Jews.” On Oct. 7, Hamas-led attackers murdered civilians, committed sexual violence, m…",
+        "date": "2026-10-07T20:33:18Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107932301246001617",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107932123562963079",
+        "content": "Off to Texas with President Trump. Let’s send Ken Paxton to the United States Senate!",
+        "date": "2026-10-07T20:32:36Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107932123562963079",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107952564935499882",
+        "content": "RT The White House: WHEELS UP TO THE LONE STAR STATE 🦅",
+        "date": "2026-10-07T19:58:21Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107952564935499882",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107932512714699080",
+        "content": "RT Rep. Debbie Wasserman Schultz: Desecrating the memory of murdered, innocent Jews today of all days and refusing to even condemn Hamas is obscene. T...",
+        "date": "2026-10-07T19:10:14Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107932512714699080",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107932325233496513",
+        "content": "RT Mark Halperin: For all the obvious tensions between the mayor and the Jewish and pro-Israel communities in the past, today, I believe, because of @...",
+        "date": "2026-10-07T16:46:28Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107932325233496513",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107928152764715384",
+        "content": "RT Attorney General Ken Paxton: LOST: James Talarico has been missing for 11 days. If seen, please return to Robert De Niro.",
+        "date": "2026-10-07T16:03:54Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107928152764715384",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107799281981878746",
+        "content": "Tragic. And true.",
+        "date": "2026-10-07T11:44:44Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107799281981878746",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107788555980361930",
+        "content": "true!",
+        "date": "2026-10-07T11:02:07Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107788555980361930",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "cruz_x_2107598723496968408",
         "content": "RT David Shafer: Never forget the Obama administration spent years classifying this as ‘workplace violence,’ not terrorism, and blocking Purple Hear...",
         "date": "2026-10-06T22:02:33Z",
         "source": "x",
         "source_url": "https://x.com/tedcruz/status/2107598723496968408",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107788523709366331",
+        "content": "RT John LeFevre: The Texas Triangle will see the biggest economic expansion in the US over the next ten years. Dallas, Houston, Austin, San Antonio. N...",
+        "date": "2026-10-06T21:15:52Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107788523709366331",
         "context": null,
         "is_user_added": false
       },
@@ -3654,6 +3852,15 @@
         "is_user_added": false
       },
       {
+        "id": "cruz_x_2107798718695215390",
+        "content": "RT Kevin Bishop: Absolutely shocking report on Democrat candidate @AnnieAndrewsMD work trans-ing kids. Glad Governor McMaster and SC Legislature stopp...",
+        "date": "2026-10-06T17:00:07Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107798718695215390",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "cruz_x_2107557292497666490",
         "content": "RT David Shafer: The Biden regime lost track of nearly 100,000 migrant children but managed to carefully map the movements of 16 year old Barron Trump...",
         "date": "2026-10-06T15:03:53Z",
@@ -3668,6 +3875,15 @@
         "date": "2026-10-06T14:16:30Z",
         "source": "x",
         "source_url": "https://x.com/tedcruz/status/2107552495228924087",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2107799114897571975",
+        "content": "RT Ari Fleischer: Why did Ab-dual instruct his staff to deny he’s an Egyptian citizen? He is. Why did he tell his staff not to film Islamist literatu...",
+        "date": "2026-10-06T14:09:22Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2107799114897571975",
         "context": null,
         "is_user_added": false
       },
@@ -6722,6 +6938,69 @@
     "domain": "tech",
     "quotes": [
       {
+        "id": "musk_x_2107999887187165544",
+        "content": "Try Grok @Bot!",
+        "date": "2026-10-08T01:01:52Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107999887187165544",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107998173663051794",
+        "content": "🇧🇩 Starlink Mobile now available in Bangladesh! 🇧🇩",
+        "date": "2026-10-08T00:55:03Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107998173663051794",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107998474218446880",
+        "content": "RT Teslaconomics: I just turned my own comment section into a full-color Japanese manga using Grok Bot. So if you replied to my CFO post, you might ac...",
+        "date": "2026-10-08T00:23:18Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107998474218446880",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107998540073181440",
+        "content": "RT X Freeze: Starlink is much bigger than faster internet It gives a country an entirely new layer of infrastructure that reaches people traditional n...",
+        "date": "2026-10-07T23:40:00Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107998540073181440",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107961709717807149",
+        "content": "Starlink beams are turned off over India, so the claim that they were used by anyone for any reason is absolutely false",
+        "date": "2026-10-07T22:30:10Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107961709717807149",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108010641738854910",
+        "content": "RT John Stossel: When Elon Musk became the world’s first trillionaire, people got mad. How much money should any one person have? https://www.johnsto...",
+        "date": "2026-10-07T21:36:00Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108010641738854910",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107996249576391105",
+        "content": "RT Arthur MacWaters: grok @bot is by far my most used personal agent",
+        "date": "2026-10-07T19:55:29Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107996249576391105",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2107853835528274320",
         "content": "Starlink Mobile (direct-to-cell) V2 satellites are incredible. This @SpaceX constellation will enable more than 100 times the bandwidth of our current V1 system!X Freeze: SpaceX just got a massive FCC green light for Starlink MobileThe FCC has approved SpaceX to launch and operate up to 15,000 next-generation satellites built for direct-to-phone connectivityThe new system is designed to:• Target peak speeds of up to 150 Mbps per user•",
         "date": "2026-10-07T15:21:31Z",
@@ -6758,11 +7037,101 @@
         "is_user_added": false
       },
       {
+        "id": "musk_x_2107848300196237458",
+        "content": "RT Tesla Europe, Middle East & Africa: 3 in 4 Norwegian Tesla owners make their next car another Tesla 🇳🇴 We love ya too",
+        "date": "2026-10-07T14:41:52Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107848300196237458",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107846560155623569",
+        "content": "RT DogeDesigner: BREAKING: Intel CEO Lip-Bu Tan confirms the company will continue working with Elon Musk on Terafab. He made the comments in Tokyo to...",
+        "date": "2026-10-07T10:35:04Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107846560155623569",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107844435224809938",
+        "content": "RT Nathan Lands: People clearly prefer Grok Bot to Dots.",
+        "date": "2026-10-07T10:23:57Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107844435224809938",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107724314451878104",
+        "content": "Important note regarding Grok @Bot: Going forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney,...",
+        "date": "2026-10-07T06:46:50Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107724314451878104",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107714870313676807",
+        "content": "🇩🇪 Danke Schön! 🇩🇪",
+        "date": "2026-10-07T06:09:19Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107714870313676807",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107724867705651557",
+        "content": "RT Lauren Dreyer: Great to be at India Mobile Congress today. Thank you to the Government of India and @DoT_India for the opportunity to share @Starli...",
+        "date": "2026-10-07T06:08:11Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107724867705651557",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107722382211424679",
+        "content": "RT Melvin Vivas: Grok Bot is awesome",
+        "date": "2026-10-07T05:54:26Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107722382211424679",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107724743386501180",
+        "content": "RT Xenocosmography: Finally. https://x.com/NatConTalk/status/2107447587683045633?s=20",
+        "date": "2026-10-07T05:28:25Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107724743386501180",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107722464591794325",
+        "content": "RT nick: Grok bot proactively helping every day is like having many executive assistants for each area of your life. There hasn’t been a technology t...",
+        "date": "2026-10-07T04:00:55Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107722464591794325",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2107644163219202213",
         "content": "RT Larsen Cundric: NEW: @bot tagging just went live. Reply to any post: > @bot add this to my Notion reading list > @bot remind me to read this tomorr...",
         "date": "2026-10-06T23:38:39Z",
         "source": "x",
         "source_url": "https://x.com/elonmusk/status/2107644163219202213",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107717867064209705",
+        "content": "RT lauren: I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams? https://x.ai/bot/plugin/63354504",
+        "date": "2026-10-06T22:19:32Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107717867064209705",
         "context": null,
         "is_user_added": false
       },
@@ -6776,11 +7145,47 @@
         "is_user_added": false
       },
       {
+        "id": "musk_x_2107722678799077887",
+        "content": "RT Debbie O'Brien: OK I rock. I just built an @AmazonAlexa skill so I can talk to my Grok @bot. It works and that blows my mind. I used voice mode in ...",
+        "date": "2026-10-06T20:26:17Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107722678799077887",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2107587206194098350",
         "content": "RT Riley Gaines: This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
         "date": "2026-10-06T19:44:06Z",
         "source": "x",
         "source_url": "https://x.com/elonmusk/status/2107587206194098350",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107723129120518469",
+        "content": "RT Melvin Vivas: Try asking your Grok Bot to send an email It'll claim an inbox — name@mail.grokbot.com Your bot now has an email to use. It can send...",
+        "date": "2026-10-06T18:57:32Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107723129120518469",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107717606702776559",
+        "content": "RT Xenocosmography: Leftists: \"We're going to set the Orks on our own people until they're all thoroughly raped and killed. Also, we're the good guys....",
+        "date": "2026-10-06T17:05:55Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107717606702776559",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107717829780967641",
+        "content": "RT Prisha Mosley🦎: I am suing my doctors for transitioning me starting as a minor in the state of North Carolina.",
+        "date": "2026-10-06T17:02:05Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107717829780967641",
         "context": null,
         "is_user_added": false
       },
@@ -6830,6 +7235,15 @@
         "is_user_added": false
       },
       {
+        "id": "musk_x_2107702262227415400",
+        "content": "RT Sawyer Merritt: The Model Y was the #1 best-selling car of any kind (EV or gas) in South Korea in September for the 3rd consecutive month. Tesla re...",
+        "date": "2026-10-06T14:39:20Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107702262227415400",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2107587053303308695",
         "content": "RT Luis Batalha: I built a personal newspaper on a Zectrix e-paper display and stuck it on my fridge: • Local events I might like (using Grok Bot) •...",
         "date": "2026-10-06T14:22:15Z",
@@ -6853,6 +7267,15 @@
         "date": "2026-10-06T10:01:01Z",
         "source": "x",
         "source_url": "https://x.com/elonmusk/status/2107644201060192682",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2107724662239293694",
+        "content": "RT Parker Smith: Sign up to hear the latest on @bot! I'll be sharing some of the ways proactivity has supercharged @bot, should be a good time :) http...",
+        "date": "2026-10-06T03:39:30Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2107724662239293694",
         "context": null,
         "is_user_added": false
       },
@@ -20250,6 +20673,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "joy_reid_x_2107966563248668934",
+        "content": "RT mark normand: We used to be a country",
+        "date": "2026-10-07T20:37:57Z",
+        "source": "x",
+        "source_url": "https://x.com/Joyannreid/status/2107966563248668934",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "joy_reid_x_2107591991379054749",
         "content": "RT Diana S: The Da’Vinchi Code | The Joy Reid Show Live, by @JoyAnnReid https://open.substack.com/pub/joyannreid/p/the-davinchi-code-the-joy-reid-sho...",
         "date": "2026-10-06T05:46:44Z",
@@ -20382,6 +20814,33 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "chris_hayes_x_2108031639066403120",
+        "content": "RT Cameron 🇺🇸 🗽🦅: the Vice President of the United States has gone on record citing this man as one of his biggest intellectual influences...",
+        "date": "2026-10-08T01:10:57Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2108031639066403120",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "chris_hayes_x_2108002067558416740",
+        "content": "RT Ben Wyskida: My new auto reply to all work-related emails:",
+        "date": "2026-10-07T23:59:38Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2108002067558416740",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "chris_hayes_x_2107980059357126978",
+        "content": "RT Raza Ahmad Rumi: Pakistan’s solar revolution is extraordinary. Solar power rose from just 2% of grid generation in 2019 to 22.5% in 2025, growing ...",
+        "date": "2026-10-07T19:34:34Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2107980059357126978",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "chris_hayes_x_2107646423160226155",
         "content": "RT @alittleleader: I cannot imagine the horror of going to your execution, experiencing severe pain, and then waking up and finding out you…",
@@ -21602,6 +22061,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "tucker_x_2107943417166582035",
+        "content": "Charlie Kirk was right about October 7. More tonight live with Dave Smith at 6 PM ET on https://TuckerCarlson.com.",
+        "date": "2026-10-07T21:17:29Z",
+        "source": "x",
+        "source_url": "https://x.com/TuckerCarlson/status/2107943417166582035",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "tucker_004",
         "content": "The elites don't care about you. They never have.",
         "date": "2022-01-01T00:00:00Z",
@@ -21707,6 +22175,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "shapiro_x_2107841184785977592",
+        "content": "RT Frank J. Fleming: A war you started and suck at is not a genocide.",
+        "date": "2026-10-07T14:31:00Z",
+        "source": "x",
+        "source_url": "https://x.com/benshapiro/status/2107841184785977592",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "shapiro_x_2107838056900247627",
+        "content": "49 words in tribute to the Jews murdered on October 7. 141 words on how Israel is responsible for everything and the only answer is to hand more power...",
+        "date": "2026-10-07T14:18:49Z",
+        "source": "x",
+        "source_url": "https://x.com/benshapiro/status/2107838056900247627",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "shapiro_x_2107567176945144080",
         "content": "It's always the ones you most suspect",
@@ -21922,11 +22408,38 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2107980358037725326",
+        "content": "MALL MASSACRE PLOT STOPPED: FBI Nabs ISIS Teen After Undercover AK-47 Sale [WATCH] https://hannity.com/media-room/mall-massacre-plot-stopped-fbi-nabs-...",
+        "date": "2026-10-07T23:44:16Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2107980358037725326",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "hannity_x_2107950384366879133",
+        "content": "WESTERN WARNING: Rubio Blasts Open Borders, Globalism in Athens Speech [WATCH] https://hannity.com/media-room/nationalism-is-back-rubio-calls-for-west...",
+        "date": "2026-10-07T21:45:10Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2107950384366879133",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2107851532519493864",
         "content": "POST OP-ED: Three Years After Oct. 7, the Haters are Still Celebrating Terrorhttps://hannity.com/media-room/post-op-ed-three-years-after-oct-7-the-haters-are-still-celebrating-terror/",
         "date": "2026-10-07T15:12:21Z",
         "source": "x",
         "source_url": "https://x.com/seanhannity/status/2107851532519493864",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "hannity_x_2107836369905078686",
+        "content": "HANNITY MONOLOGUE: Democrats are Having Problems in Purple and Deep Blue States [WATCH] https://hannity.com/media-room/hannity-monologue-democrats-are...",
+        "date": "2026-10-07T14:12:06Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2107836369905078686",
         "context": null,
         "is_user_added": false
       },
@@ -22709,6 +23222,60 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "coulter_x_2107977455252254991",
+        "content": "Flock should cancel its contract with the University of Minnesota if it's going to politicize the cameras like this. Tell the students keep their fing...",
+        "date": "2026-10-07T23:32:44Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107977455252254991",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107976617872294177",
+        "content": "University of Minnesota ALSO refuses to allow ICE to use any data from the flock cameras. I thought liberals were demanding ICE wear body cams? Now, t...",
+        "date": "2026-10-07T23:29:24Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107976617872294177",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107975031267442936",
+        "content": "'Scoop: University of Minnesota to remove recently installed Flock camera on the West Bank' BECAUSE SOMALIS OBJECTED TO IT. Luckily, there's no risk o...",
+        "date": "2026-10-07T23:23:06Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107975031267442936",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107949852353310773",
+        "content": "'Christa Pike's Lawyers Say She's Awake, Confused After Botched Execution' Maybe this will clear it up for her: \"There once was a lovely young woman n...",
+        "date": "2026-10-07T21:43:03Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107949852353310773",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107947638910075010",
+        "content": "The real story of the “Cornell Seven” isn’t the sexual debauchery of a few lowlifes. It’s that, contrary to all the venomous denunciations of frat...",
+        "date": "2026-10-07T21:34:15Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107947638910075010",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2107947095575642394",
+        "content": "NEW COLUMN IS POSTED! Slut-Shaming FTW At Cornell https://anncoulter.substack.com/p/slut-shaming-ftw-at-cornell?r=2i1yv&utm_campaign=post-expanded-sha...",
+        "date": "2026-10-07T21:32:06Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2107947095575642394",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "coulter_x_2107857440632897609",
         "content": "Amazing ..MARK SIMONE: Another great example of how the NY Times readers don’t get the real story:",
@@ -23608,6 +24175,33 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "ingraham_x_2107972138053374196",
+        "content": "RT Raymond Arroyo: Don’t miss the @IngrahamAngle for Seen and Unseen… some stars flame out and we celebrate a very special birthday. 7:52pm E. @FoxN...",
+        "date": "2026-10-07T22:31:40Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2107972138053374196",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "ingraham_x_2107930150012613020",
+        "content": "GOOD THING WE HAVE TRUMP's TARIFFS IN PLACE. \"To understand Europe’s growing alarm over its trade deficit with China, consider a striking statistic: ...",
+        "date": "2026-10-07T20:24:45Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2107930150012613020",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "ingraham_x_2107826107089146028",
+        "content": "💯",
+        "date": "2026-10-07T13:31:20Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2107826107089146028",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "ingraham_x_2107565321758339104",
         "content": "However crazy left-wing you think the regular media is, the sports media is worse.",
         "date": "2026-10-06T20:15:04Z",
@@ -24225,6 +24819,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "matt_walsh_x_2107793707802001503",
+        "content": "Nobody stopped you from investing in the stock market. If you never did that at any point in your life, that’s on you. You’re a grown adult. Take so...",
+        "date": "2026-10-07T11:22:35Z",
+        "source": "x",
+        "source_url": "https://x.com/MattWalshBlog/status/2107793707802001503",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "matt_walsh_x_2107664122037072010",
         "content": "On average, Boomers are getting paid more from Social Security than they “paid into it.” A lot more. Like double, and that’s counting inflation and interest. In raw dollars, they’ll get four to seven times what they paid in. So what about this compromise, to at least stave off insolvency and save billions: you get back what you paid in, but no more. Young families won’t be forced to finance a 250 percent return on your “investment.” That seems extremely reasonable, doesn’t it? It doesn’t go nearly as far as I would like. But it’s a very fair compromise. It completely negates any claim that you didn’t get the money back that you “paid in.” And yet I suspect that this comprise will not be satisfactory. Why is that? Because this debate actually has nothing to do with “getting back what you paid in.” The REAL demand is for a lot more than that.",
         "date": "2026-10-07T02:47:39Z",
@@ -24239,6 +24842,15 @@
         "date": "2026-10-07T01:23:00Z",
         "source": "x",
         "source_url": "https://x.com/MattWalshBlog/status/2107642817543631163",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "matt_walsh_x_2107794815522115867",
+        "content": "RT Bad Hombre: All of this happened in the past three weeks.",
+        "date": "2026-10-06T22:45:04Z",
+        "source": "x",
+        "source_url": "https://x.com/MattWalshBlog/status/2107794815522115867",
         "context": null,
         "is_user_added": false
       },
@@ -24700,6 +25312,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "glenn_beck_x_2107817704921149634",
+        "content": "LIVE: The Glenn Beck Program | Hour 1 | 10/7/26 https://x.com/i/broadcasts/1RKjpbQmLvBJw",
+        "date": "2026-10-07T12:57:56Z",
+        "source": "x",
+        "source_url": "https://x.com/glennbeck/status/2107817704921149634",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "glenn_beck_x_2107455317206581578",
         "content": "LIVE: The Glenn Beck Program | Hour 1 | 10/6/26 https://x.com/i/broadcasts/1qKDzWEAAzoJV",
         "date": "2026-10-06T12:57:56Z",
@@ -24913,6 +25534,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "bill_oreilly_x_2107810740069401015",
+        "content": "Connecticut Senator Chris Murphy wants to raise the minimum wage to $ 25 an hour. What do you think will happen? Small businesses will fold all over t...",
+        "date": "2026-10-07T12:30:16Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2107810740069401015",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "bill_oreilly_x_2107803363316236758",
+        "content": "Today only for #PrimeDay, get the eBook of my #1 New York Times bestselling book, CONFRONTING EVIL, for just $2.99. https://www.amazon.com/Confronting...",
+        "date": "2026-10-07T12:00:57Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2107803363316236758",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "bill_oreilly_x_2107630230575976920",
         "content": "Don't miss my latest episode of the @NoSpinNews. https://www.billoreilly.com/b/Americas-Biggest-Election-Issue-Obama-Backs-Michigans-Radical-Left-Cand...",
@@ -25450,6 +26089,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "megyn_kelly_x_2107969394433511491",
+        "content": "It’s clearly from Jane Doe/her attorney who, imo, embarked on a very calculated media strategy to ruin the defendants leak by leak from the moment th...",
+        "date": "2026-10-07T23:00:42Z",
+        "source": "x",
+        "source_url": "https://x.com/megynkelly/status/2107969394433511491",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "megyn_kelly_x_2107962670154707194",
+        "content": "RT memetic_sisyphus: The Cornell case is funny because they had verbal consent with witnesses and written consent after the fact through text messages...",
+        "date": "2026-10-07T14:01:29Z",
+        "source": "x",
+        "source_url": "https://x.com/megynkelly/status/2107962670154707194",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "megyn_kelly_x_2106814047739928677",
         "content": "RT Mostly Peaceful Memes: Refusing to pay my bar tab because I was drunk and couldn’t consent when I ordered shots for the whole bar",
         "date": "2026-10-04T15:59:52Z",
@@ -25663,6 +26320,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "pence_x_2107833863116402698",
+        "content": "Three years ago today, Hamas terrorists launched a brutal invasion into Israel that claimed 1,200 lives and took hundreds of hostages. In January 2024...",
+        "date": "2026-10-07T14:02:09Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2107833863116402698",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "pence_x_2107845024205378034",
+        "content": "RT U.S. Embassy Jerusalem: Today we remember the innocent lives murdered by Hamas terrorists on October 7, 2023, and honor the heroes who risked every...",
+        "date": "2026-10-07T05:52:28Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2107845024205378034",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "pence_x_2107441644827992225",
         "content": "Popular opinion is fickle. Principles are final. The challenge for Conservatives today is to hold fast to our principles. When principles guide us, th...",
@@ -29140,6 +29815,51 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "mike_johnson_x_2108014148076327012",
+        "content": "We’ll never forget the horrors of October 7th. Humbled to join @michiganstateu students with @RepTomBarrett, @HouseGOP Chairwoman @RepLisaMcClain, @R...",
+        "date": "2026-10-08T01:58:32Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2108014148076327012",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "mike_johnson_x_2107986794134323329",
+        "content": "Mayor Mamdani had an opportunity today to unite New Yorkers on the anniversary of the horrific tragedy of October 7th — where Hamas terrorists, bankr...",
+        "date": "2026-10-08T00:09:50Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2107986794134323329",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "mike_johnson_x_2107950675049238619",
+        "content": "This Manufacturing Week, we are making manufacturing GREAT again. 🇺🇸 @RepScottPerry, Chairwoman @RepLisaMcClain, and I visited Harrisburg Univer...",
+        "date": "2026-10-07T21:46:19Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2107950675049238619",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "mike_johnson_x_2107928919680970987",
+        "content": "An NYPD detective in Sanctuary City NYC, was brutally attacked by TWO criminal illegal aliens who crossed the Southern border ILLEGALLY during the Bid...",
+        "date": "2026-10-07T20:19:52Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2107928919680970987",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "mike_johnson_x_2107822307372634355",
+        "content": "Three years ago, the world witnessed unspeakable horror as Hamas carried out the deadliest attack on the Jewish people since the Holocaust. Terrorists...",
+        "date": "2026-10-07T13:16:14Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2107822307372634355",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "mike_johnson_x_2107603201885171849",
         "content": "Republican policies have DELIVERED: 🇺🇸 The largest tax cut for middle class families in U.S. history 🇺🇸 The largest spending cut ($1.6 tri...",
         "date": "2026-10-06T22:45:35Z",
@@ -29477,6 +30197,33 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "newsom_x_2107992981672517877",
+        "content": "Happy 30th Birthday, @FoxNews! My little gift to you is a defamation lawsuit giving us the chance to see your emails, texts, edits, and the instructio...",
+        "date": "2026-10-08T00:34:26Z",
+        "source": "x",
+        "source_url": "https://x.com/GavinNewsom/status/2107992981672517877",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "newsom_x_2107939916642668563",
+        "content": "GET PRIVATE EQUITY OUT OF YOUTH SPORTS! Need to go after this ASAP, @ChopraUSA! Make youth sports affordable for families!!!!",
+        "date": "2026-10-07T21:03:34Z",
+        "source": "x",
+        "source_url": "https://x.com/GavinNewsom/status/2107939916642668563",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "newsom_x_2107931710423962055",
+        "content": "RT Governor Gavin Newsom: California will forever mourn the lives stolen by terrorists on October 7, and the immense carnage that has followed in the ...",
+        "date": "2026-10-07T20:21:33Z",
+        "source": "x",
+        "source_url": "https://x.com/GavinNewsom/status/2107931710423962055",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "newsom_x_2107484622376653162",
         "content": "The SILENCE from JD Vance and Marco Rubio today is deafening.",
         "date": "2026-10-06T14:54:23Z",
@@ -29676,6 +30423,42 @@
     "stance": "none",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "yann_lecun_x_2107975907126431922",
+        "content": "RT Yann LeCun: Re That's a commonly ignored fact. It's not like Leonardo da Vinci invented the helicopter, or even Paul Cornu who built one that took ...",
+        "date": "2026-10-07T11:40:28Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2107975907126431922",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "yann_lecun_x_2107973162591805605",
+        "content": "RT Yann LeCun: Re The 1991 version is an obscure tech report with a vague idea, no theory, no experiment to speak of, and certainly no code, that the ...",
+        "date": "2026-10-07T11:25:42Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2107973162591805605",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "yann_lecun_x_2107804973597688159",
+        "content": "RT Arvind Narayanan: \"Even “normal” general-purpose technologies are initially volatile and dangerous, even those we come to think of as unalloyed g...",
+        "date": "2026-10-07T10:49:28Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2107804973597688159",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "yann_lecun_x_2107792001865232699",
+        "content": "RT Fabrice Pelosi: Il est sorti et il est déjà en rupture de stock sur Amazon 🤯 Les pionniers de l’IA, prix du livre d’économie, vient de sort...",
+        "date": "2026-10-07T07:18:42Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2107792001865232699",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "yann_lecun_x_2107310297002189146",
         "content": "RT Pessimists Archive: Issac Asimov: 𝐈 𝐝𝐢𝐬𝐜𝐨𝐯𝐞𝐫𝐞𝐝, 𝐭𝐨 𝐦𝐲 𝐚𝐦𝐚𝐳𝐞𝐦𝐞𝐧𝐭, 𝐭𝐡�...",
@@ -30885,6 +31668,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "sarah_sanders_x_2107839070751625643",
+        "content": "Disgusting and shameful to use October 7th as an excuse to repeat Hamas’ talking points. The terrorist enemies that seek to destroy us will not preva...",
+        "date": "2026-10-07T14:22:50Z",
+        "source": "x",
+        "source_url": "https://x.com/SarahHuckabee/status/2107839070751625643",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "sarah_sanders_x_2103650339916570940",
         "content": "Walmart has always given back to the community. Today, we celebrated the @Walmart Foundation’s $10 million grant to jump start the Arkansas Full Tabl...",
