@@ -1067,6 +1067,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "schumer_x_2108355417503830466",
+        "content": "The shooting of a New Yorker by ICE agents today is deeply disturbing, especially amid reports that a child was in the car when shots were fired. I’m...",
+        "date": "2026-10-09T00:34:37Z",
+        "source": "x",
+        "source_url": "https://x.com/SenSchumer/status/2108355417503830466",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "schumer_x_2107819404075442196",
         "content": "Today we mark 3 years since Hamas’s horrific October 7th terrorist attack on Israel, the single deadliest day in Jewish history since the Holocaust. ...",
         "date": "2026-10-07T13:04:41Z",
@@ -1289,6 +1298,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "warren_x_2108319629047144904",
+        "content": "RT TIME: A new report co-authored by Sen. Elizabeth Warren argues that major tech firms are misleading the public about the costs and benefits around ...",
+        "date": "2026-10-08T21:00:58Z",
+        "source": "x",
+        "source_url": "https://x.com/SenWarren/status/2108319629047144904",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "warren_x_2107936706502488081",
         "content": "We’re in a housing crisis. Instead of bringing down housing costs, the Trump Administration is weaponizing civil rights laws to make it harder for Bl...",
@@ -2469,6 +2487,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "desantis_x_2108355333299335376",
+        "content": "Almost every candidate this cycle is trying to address the issue of rising costs that have battered families in the post-Covid era, yet how many are a...",
+        "date": "2026-10-09T00:34:17Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108355333299335376",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2108337582182486057",
+        "content": "Look out for tornadoes from Hurricane Isaias. Could spin off far from the eye of the storm. Be aware!",
+        "date": "2026-10-08T23:23:45Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2108337582182486057",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "desantis_x_2108034784534409699",
         "content": "And we will see you on Monday night! Congrats to the Rays on sweeping the Yankees in the ALDS.",
@@ -3708,11 +3744,56 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "cruz_x_2108333048659878065",
+        "content": "Wonder what he’s thinking? 🧐",
+        "date": "2026-10-08T23:05:44Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108333048659878065",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2108308554096730556",
+        "content": "Can’t wait to watch it.",
+        "date": "2026-10-08T21:28:24Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108308554096730556",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2108335690069279222",
+        "content": "RT Dave Rubin: This is the picture of the year.",
+        "date": "2026-10-08T17:32:08Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108335690069279222",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2108338441654272253",
+        "content": "RT Bruce Pearl: You are a liar and a coward Mr Mayor. Even on the day we mourn the innocent victims of Oct 7th, you spew a sick false narrative about ...",
+        "date": "2026-10-07T22:35:47Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108338441654272253",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "cruz_x_2108008434956370404",
         "content": "RT Andrew Kaczynski: NEW: Footage and interviews reviewed by CNN repeatedly show Abdul El-Sayed — who is set to campaign with Barack Obama — calling...",
         "date": "2026-10-07T21:37:12Z",
         "source": "x",
         "source_url": "https://x.com/tedcruz/status/2108008434956370404",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "cruz_x_2108335853747556635",
+        "content": "RT Andrew Leyden: The @POTUS took questions before boarding Marine One, with Sen. Ted Cruz joining him for the trip to Texas today.",
+        "date": "2026-10-07T20:42:31Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2108335853747556635",
         "context": null,
         "is_user_added": false
       },
@@ -6937,6 +7018,87 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2108351149103271986",
+        "content": "RT Stepan Goncharov: One of my favorite and totally underrated @bot features is canvas. Just ask your Chief of Staff to present you an updates on the ...",
+        "date": "2026-10-09T00:06:36Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108351149103271986",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108319173851947042",
+        "content": "🤔",
+        "date": "2026-10-08T22:10:36Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108319173851947042",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108315261044445330",
+        "content": "This will sound super crazy, but I see a path to SpaceX being worth orders of magnitude more than the current Earth economy",
+        "date": "2026-10-08T21:55:03Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108315261044445330",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108323886865555666",
+        "content": "RT Paul Graham: Talked to someone recently who knows a lot about defense tech, and he made an interesting point: the test of most military hardware ri...",
+        "date": "2026-10-08T21:52:44Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108323886865555666",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108311744255021547",
+        "content": "RT @Gwynne_Shotwell: I have been a posting slug! How about that launch triple header last week: Starship, Crew 13, and Heavy!!! Terrestri…",
+        "date": "2026-10-08T21:41:05Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108311744255021547",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108308944049389953",
+        "content": "RT Michael Nicolls: Big day for @Starlink Mobile…",
+        "date": "2026-10-08T20:51:56Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108308944049389953",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108313143533306024",
+        "content": "RT X: heard you have other apps...that's cute",
+        "date": "2026-10-08T20:51:27Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108313143533306024",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108326822697902170",
+        "content": "RT Harley Finkelstein: Shopify now connects to @grok and @bot. One more place merchants already work, now connected to their store. Solo founder no lo...",
+        "date": "2026-10-08T17:09:54Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108326822697902170",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2108323124685230302",
+        "content": "RT C3: Reid Hoffman is James Talarico's top donor. Yes, this Reid Hoffman.👇",
+        "date": "2026-10-08T01:55:04Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2108323124685230302",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2107999887187165544",
         "content": "Try Grok @Bot!",
@@ -20815,6 +20977,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "chris_hayes_x_2108382464276308076",
+        "content": "RT onion person: from 5 months ago:",
+        "date": "2026-10-08T22:21:04Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2108382464276308076",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "chris_hayes_x_2108383375039861113",
+        "content": "RT sonch: Yes, math is an aesthetic pursuit! One might say artistic/literary, something like poetry. You need a rich and deep enough ‘culture’ of ‘...",
+        "date": "2026-10-08T11:29:20Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2108383375039861113",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "chris_hayes_x_2108031639066403120",
         "content": "RT Cameron 🇺🇸 🗽🦅: the Vice President of the United States has gone on record citing this man as one of his biggest intellectual influences...",
         "date": "2026-10-08T01:10:57Z",
@@ -22408,6 +22588,42 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2108360546122920279",
+        "content": "\"That'll be the end of America as we know it. Now, you can vote your way into socialism, but you can't vote your way out of it.\" -Sean Hannity The upc...",
+        "date": "2026-10-09T00:55:00Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2108360546122920279",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "hannity_x_2108346067045777837",
+        "content": "RT The Leaderboard with Matt Towery & John Hall: The Polling Wars — Texas at 1 Point, Georgia's Jackson Wave & the CBS Trick https://x.com/i/broadcas...",
+        "date": "2026-10-08T23:00:06Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2108346067045777837",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "hannity_x_2108322633972330504",
+        "content": "IRAN ON NOTICE: No Strikes Before Midterms, But Blockade Stays in Place https://hannity.com/media-room/iran-on-notice-no-strikes-before-midterms-but-b...",
+        "date": "2026-10-08T22:24:21Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2108322633972330504",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "hannity_x_2108312525678755975",
+        "content": "FROM THE RIVER TO THE TABLE: Mamdani's Oct. 7 Dinner Sparks Outrage https://hannity.com/media-room/from-the-river-to-the-table-mamdanis-oct-7-dinner-s...",
+        "date": "2026-10-08T21:44:11Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2108312525678755975",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2107980358037725326",
         "content": "MALL MASSACRE PLOT STOPPED: FBI Nabs ISIS Teen After Undercover AK-47 Sale [WATCH] https://hannity.com/media-room/mall-massacre-plot-stopped-fbi-nabs-...",
         "date": "2026-10-07T23:44:16Z",
@@ -23223,6 +23439,51 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "coulter_x_2108341907248099661",
+        "content": "<<Mr. Milstein is the stepson of the right-wing radio host Mark Levin>>",
+        "date": "2026-10-08T23:40:56Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108341907248099661",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108341706642887101",
+        "content": "This ought to put an end to the genocide claims!!! Good job, David Milstein. NYT: 'How a U.S. Diplomat Suppressed and Altered Reports Critical of Isra...",
+        "date": "2026-10-08T23:40:08Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108341706642887101",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108317046719029386",
+        "content": "But they'll tell you the (coming) blue wave was about socialism, rent freezes and ICE. IT'S ALL ABOUT IRAN. “You do not campaign on being the ticket ...",
+        "date": "2026-10-08T22:02:09Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108317046719029386",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108315489432683000",
+        "content": "That's quite a record. How about putting him in a cell with Christa Pike?",
+        "date": "2026-10-08T21:55:57Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108315489432683000",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108368743424250195",
+        "content": "RT Glenn Greenwald: Any America leftist who looks at the resounding vote of Brazilians this week against the party that has occupied their country's p...",
+        "date": "2026-10-08T14:03:27Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108368743424250195",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "coulter_x_2107977455252254991",
         "content": "Flock should cancel its contract with the University of Minnesota if it's going to politicize the cameras like this. Tell the students keep their fing...",
         "date": "2026-10-07T23:32:44Z",
@@ -23246,6 +23507,24 @@
         "date": "2026-10-07T23:23:06Z",
         "source": "x",
         "source_url": "https://x.com/AnnCoulter/status/2107975031267442936",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108370474019267026",
+        "content": "RT Jarvis: Re Out of a deeply sick sense of curiosity I checked his profile and he’s FURIOUS right now. Not about the terrorism, that’s fine, just t...",
+        "date": "2026-10-07T22:50:14Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108370474019267026",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108370414116438274",
+        "content": "RT Jarvis: American. I bet the people who were arguing with David Bier at Cato about migrant crime are feeling pretty stupid right now.",
+        "date": "2026-10-07T22:35:54Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108370414116438274",
         "context": null,
         "is_user_added": false
       },
@@ -23277,6 +23556,15 @@
         "is_user_added": false
       },
       {
+        "id": "coulter_x_2108370862604951668",
+        "content": "RT Jarvis: Re New management should give Ryan his own show called The Daily Pager",
+        "date": "2026-10-07T17:01:55Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108370862604951668",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "coulter_x_2107857440632897609",
         "content": "Amazing ..MARK SIMONE: Another great example of how the NY Times readers don’t get the real story:",
         "date": "2026-10-07T15:35:50Z",
@@ -23291,6 +23579,42 @@
         "date": "2026-10-07T15:26:50Z",
         "source": "x",
         "source_url": "https://x.com/AnnCoulter/status/2107855174504968305",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108372520319832464",
+        "content": "RT Mickey Kaus: CORRECTION OF THE DAY: \"This article was amended on 6 October 2026. Trump suggested that Iran could “take out” the two cities, but d...",
+        "date": "2026-10-06T17:52:24Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108372520319832464",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108372613898944605",
+        "content": "RT Mickey Kaus: Starting back up the Biden-Mayorkas conveyor belt for mass in-migration. Hey, as long as it's \"orderly.\" .... https://anncoulter.subst...",
+        "date": "2026-10-06T17:27:57Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108372613898944605",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108372882963509636",
+        "content": "RT Mickey Kaus: Santa Monica a prime example of a city that went left (progressive) and went broke. This story doesn't mention that SM's benighted vot...",
+        "date": "2026-10-06T16:36:29Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108372882963509636",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2108369256526315662",
+        "content": "RT Glenn Greenwald: In the wake of their devastating, nationwide, unexpectedly crushing defeat, The Brazilian Left -- just like the Democratic Party d...",
+        "date": "2026-10-05T12:41:04Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2108369256526315662",
         "context": null,
         "is_user_added": false
       },
@@ -25312,6 +25636,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "glenn_beck_x_2108355154294812777",
+        "content": "Re Streaming right now, only on Torch. https://glennbeck.com/specials",
+        "date": "2026-10-09T00:33:34Z",
+        "source": "x",
+        "source_url": "https://x.com/glennbeck/status/2108355154294812777",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "glenn_beck_x_2108331860636164454",
+        "content": "Re See you soon. https://glennbeck.com/specials",
+        "date": "2026-10-08T23:01:01Z",
+        "source": "x",
+        "source_url": "https://x.com/glennbeck/status/2108331860636164454",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "glenn_beck_x_2107817704921149634",
         "content": "LIVE: The Glenn Beck Program | Hour 1 | 10/7/26 https://x.com/i/broadcasts/1RKjpbQmLvBJw",
         "date": "2026-10-07T12:57:56Z",
@@ -26320,6 +26662,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "pence_x_2108373763318546924",
+        "content": "Welcome Home to the Courageous Crew of the USS Abraham Lincoln @CVN_72! God Bless You and Your Families for Your Service in Operation Epic Fury!⚓️�...",
+        "date": "2026-10-09T01:47:31Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2108373763318546924",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "pence_x_2107833863116402698",
         "content": "Three years ago today, Hamas terrorists launched a brutal invasion into Israel that claimed 1,200 lives and took hundreds of hostages. In January 2024...",
@@ -29969,6 +30320,24 @@
     "domain": "tech",
     "quotes": [
       {
+        "id": "demis_hassabis_x_2108331042083872882",
+        "content": "Excited to support the Genesis Mission @WhiteHouse @ENERGY and Director @mkratsios47 with $150M in investments this week. Looking forward to collabora...",
+        "date": "2026-10-08T22:57:45Z",
+        "source": "x",
+        "source_url": "https://x.com/demishassabis/status/2108331042083872882",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "demis_hassabis_x_2108373961222569999",
+        "content": "RT Alex Imas: New essay for the @GoogleDeepMind Institute with James Manyika on AI x Science, \"Bending the Curve of Discovery\". While accelerating exi...",
+        "date": "2026-10-08T14:25:02Z",
+        "source": "x",
+        "source_url": "https://x.com/demishassabis/status/2108373961222569999",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "demis_hassabis_x_2107583214432694756",
         "content": "John Urschel is an incredible guy. Had the pleasure of co-presenting an award with him at the Breakthrough Prize a few years ago - wonderful person an...",
         "date": "2026-10-06T21:26:09Z",
@@ -30306,6 +30675,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "booker_x_2108309020326892015",
+        "content": "Corrupt and desperate.",
+        "date": "2026-10-08T21:30:15Z",
+        "source": "x",
+        "source_url": "https://x.com/CoryBooker/status/2108309020326892015",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "booker_x_2107597017492996350",
         "content": "Another blatant act of political corruption.",
         "date": "2026-10-06T22:21:00Z",
@@ -30423,6 +30801,24 @@
     "stance": "none",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "yann_lecun_x_2108323863721370100",
+        "content": "RT Randall Balestriero: Financial data is RIPE for JEPAs... noise, non-stationarity, unknown ground truth states... yet data and evaluation is not rea...",
+        "date": "2026-10-08T19:04:45Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2108323863721370100",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "yann_lecun_x_2108314943074312333",
+        "content": "RT CrazyShyyt: Meta published a paper that might end the transformer era. For the last seven years, every major AI, ChatGPT, Claude, Gemini, has been ...",
+        "date": "2026-10-08T09:33:16Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2108314943074312333",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "yann_lecun_x_2107975907126431922",
         "content": "RT Yann LeCun: Re That's a commonly ignored fact. It's not like Leonardo da Vinci invented the helicopter, or even Paul Cornu who built one that took ...",
