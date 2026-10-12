@@ -162,6 +162,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "obama_x_2109295201521106946",
+        "content": "Proud of you, @WhiteSox, for making the jump this year! Next year will be even better!",
+        "date": "2026-10-11T14:48:59Z",
+        "source": "x",
+        "source_url": "https://x.com/BarackObama/status/2109295201521106946",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "obama_x_2108641562431197517",
         "content": "When I got to Chicago in the summer of 1985, Mike Ditka and the Chicago Bears were king. Coach Ditka set the tone for a team that was punishing, domin...",
         "date": "2026-10-09T19:31:39Z",
@@ -617,6 +626,24 @@
         "date": "2026-10-11T23:01:07Z",
         "source": "x",
         "source_url": "https://x.com/BernieSanders/status/2109419049579118715",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "sanders_x_2109312538362175824",
+        "content": "Troy Jackson knows healthcare is a human right, that we must raise the minimum wage and make it easier to join a union, & that the very rich need to s...",
+        "date": "2026-10-11T15:57:52Z",
+        "source": "x",
+        "source_url": "https://x.com/BernieSanders/status/2109312538362175824",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "sanders_x_2109294517488599367",
+        "content": "On our way to Lewiston, Maine for a noon rally with Troy Jackson. EVERY STATE COUNTS. We cannot continue to have a Senate which acts as a rubber-stamp...",
+        "date": "2026-10-11T14:46:16Z",
+        "source": "x",
+        "source_url": "https://x.com/BernieSanders/status/2109294517488599367",
         "context": null,
         "is_user_added": false
       },
@@ -1379,6 +1406,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "warren_x_2109314979627237376",
+        "content": "If Congress doesn’t act, Social Security benefits are on track be cut in 2032. Not on my watch. We must protect Social Security by lifting the cap so...",
+        "date": "2026-10-11T16:07:34Z",
+        "source": "x",
+        "source_url": "https://x.com/SenWarren/status/2109314979627237376",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "warren_x_2108684641016431030",
         "content": "This announcement is a disgrace. You know how Trump could bring down gas and diesel prices? By ending his illegal war with Iran. Instead, he's going t...",
@@ -2623,6 +2659,24 @@
         "is_user_added": false
       },
       {
+        "id": "desantis_x_2109378610872156184",
+        "content": "Exciting news for gold and silver enthusiasts!",
+        "date": "2026-10-11T20:20:25Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2109378610872156184",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2109377115636347196",
+        "content": "Update on debris clearing, power restoration efforts by FPL and the Coops, and small business assistance.",
+        "date": "2026-10-11T20:14:29Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2109377115636347196",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "desantis_x_2109009489466929471",
         "content": "Hey @MyFDOT and @FLDEPNews — let’s get this fixed!",
         "date": "2026-10-10T19:53:40Z",
@@ -3817,6 +3871,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "haley_x_2109248651726098893",
+        "content": "RT Rep. Brian Fitzpatrick 🇺🇸: We will be introducing bipartisan legislation to block any and all purchases of Russian oil. It will be called the...",
+        "date": "2026-10-10T19:38:37Z",
+        "source": "x",
+        "source_url": "https://x.com/NikkiHaley/status/2109248651726098893",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "haley_x_2109202165403172994",
+        "content": "RT Rebeccah Heinrichs: The FBI just caught Russia trying to commit assassinations on U.S. soil. It has aided Iran which is at war with the U.S. and it...",
+        "date": "2026-10-10T18:16:33Z",
+        "source": "x",
+        "source_url": "https://x.com/NikkiHaley/status/2109202165403172994",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "haley_x_2108640839953981949",
         "content": "Who still carries out public executions: The Iranian regime The North Korean regime The Taliban in Afghanistan Al-Shabaab in Somalia That is not the c...",
@@ -7334,6 +7406,87 @@
     "domain": "tech",
     "quotes": [
       {
+        "id": "musk_x_2109387553010851887",
+        "content": "Seriously, this actually works! Think of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful. You can use it thro...",
+        "date": "2026-10-11T20:55:57Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109387553010851887",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109343010085278043",
+        "content": "RT X Freeze: Jio and Airtel literally dominate the Indian mobile market TRAI's August 2026 data shows that just these two companies control more than ...",
+        "date": "2026-10-11T17:53:08Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109343010085278043",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109269410879819885",
+        "content": "1. That address has already been doxxed multiple times. 2. I don’t live there. That’s where my security team receives mail.",
+        "date": "2026-10-11T13:06:30Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109269410879819885",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109255585829159174",
+        "content": "Try it out!",
+        "date": "2026-10-11T12:11:34Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109255585829159174",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109254811254403387",
+        "content": "Grok @Bot can research best prices and buy things for you",
+        "date": "2026-10-11T12:08:29Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109254811254403387",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109255680339394843",
+        "content": "RT X Freeze: Elon Musk just used Grok Bot to shop for his kids He asked it to research the most fun Lego Star Wars kits for young kids… and order the...",
+        "date": "2026-10-11T12:06:51Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109255680339394843",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109147965537333266",
+        "content": "RT DogeDesigner: Elon Musk in dad mode. ♥️",
+        "date": "2026-10-11T04:51:11Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109147965537333266",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109248013994697184",
+        "content": "RT Gail Alfar: Elon Musk is a great dad",
+        "date": "2026-10-10T23:02:29Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109248013994697184",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109141286926287111",
+        "content": "RT Benji Taylor: SpaceX Super Intelligence just sounds awesome.",
+        "date": "2026-10-10T22:31:52Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109141286926287111",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2109028389852188810",
         "content": "RT Elon MuskRe @PEoperator @bot Grok will find another way to buy stuff. I just ordered LEGO and Grok bought it from the LEGO website.",
         "date": "2026-10-10T21:08:28Z",
@@ -7348,6 +7501,15 @@
         "date": "2026-10-10T21:04:52Z",
         "source": "x",
         "source_url": "https://x.com/elonmusk/status/2109027407185277123",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2109156083302539363",
+        "content": "RT Alex Cohen: I don't think I know a single person who owns a Tesla and drives anymore. They use full self driving 90%+ of the time. Incredible to th...",
+        "date": "2026-10-10T20:17:29Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2109156083302539363",
         "context": null,
         "is_user_added": false
       },
@@ -10014,6 +10176,24 @@
     "stance": "none",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "zelenskyy_x_2109364087465693291",
+        "content": "Wishing His Holiness Pope Leo XIV @Pontifex a successful surgery and a swift, full recovery. Our thoughts and prayers are with him, and we hope he wil...",
+        "date": "2026-10-11T19:22:43Z",
+        "source": "x",
+        "source_url": "https://x.com/ZelenskyyUa/status/2109364087465693291",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "zelenskyy_x_2109272473883795837",
+        "content": "True.",
+        "date": "2026-10-11T13:18:40Z",
+        "source": "x",
+        "source_url": "https://x.com/ZelenskyyUa/status/2109272473883795837",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "zelenskyy_x_2106748043982746020",
         "content": "Yesterday, I spoke with the American negotiating team. Today, the American side is in contact with both Ukraine and Russia and is proposing a trilater...",
@@ -25201,6 +25381,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "ingraham_x_2109368390943138090",
+        "content": "The Left prefers Cuba to the United States.",
+        "date": "2026-10-11T19:39:49Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2109368390943138090",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "ingraham_x_2109315045750382809",
+        "content": "The press thinks Americans should pay higher prices for Diesel fuel.",
+        "date": "2026-10-11T16:07:50Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2109315045750382809",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "ingraham_x_2108562983479644227",
         "content": "Here come the tariffs….EU finally Catching up to Trump: ‘No more dumping, no more spying’: European Parliament hardens line on China - https://sc.mp/ew98d",
         "date": "2026-10-09T14:19:25Z",
@@ -26624,6 +26822,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "bill_oreilly_x_2109320833730511164",
+        "content": "Radicals like Senator Bernie Sanders and New York City mayor Zohran Mamdani are actually communists. They want big government to control the “means o...",
+        "date": "2026-10-11T16:30:50Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2109320833730511164",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "bill_oreilly_x_2109011585800782114",
         "content": "Voter turnout, Iran, affordability, and the overall macroeconomy - these are the pressures shaping the midterm elections. Let's look at the polls and ...",
         "date": "2026-10-10T20:02:00Z",
@@ -26638,6 +26845,15 @@
         "date": "2026-10-10T18:02:00Z",
         "source": "x",
         "source_url": "https://x.com/BillOReilly/status/2108981387776647298",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "bill_oreilly_x_2109437900274196574",
+        "content": "RT Bill O'Reilly: A dramatic cultural shift is happening in London; churches becoming mosques, grade school lunches guided by Halal rules, and family ...",
+        "date": "2026-10-10T18:02:00Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2109437900274196574",
         "context": null,
         "is_user_added": false
       },
@@ -27250,6 +27466,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "megyn_kelly_x_2109303211228344717",
+        "content": "RT GregGutfeld: More insight from the absolute last fill-in on The Five after the janitor won't pick up.",
+        "date": "2026-10-11T14:44:06Z",
+        "source": "x",
+        "source_url": "https://x.com/megynkelly/status/2109303211228344717",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "megyn_kelly_x_2109262373202862213",
+        "content": "RT Everybody is Insane: Every single gay and woman I follow in Instagram believes the girl at Cornell was drugged and gang raped by 7 white men who al...",
+        "date": "2026-10-11T03:03:14Z",
+        "source": "x",
+        "source_url": "https://x.com/megynkelly/status/2109262373202862213",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "megyn_kelly_x_2109084801256800385",
         "content": "Love this! Esp this:“don’t argue with people committed to misunderstanding you”Veronica, Collagen Scientist 🇵🇱: So much of a woman’s life really just comes down to this:• don’t get fat (don’t starve yourself either)• stay GROOMED (blow-dries, nails, clear skin, tailored clothes, beautiful scent)• minimise exposure to endocrine disruptors• be a little dominant (the man has to fear",
         "date": "2026-10-11T00:52:56Z",
@@ -27527,6 +27761,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "pence_x_2109278268276772879",
+        "content": "“Speak up for those who cannot speak for themselves; ensure justice for those being crushed. Yes, speak up for the poor and helpless, and see that th...",
+        "date": "2026-10-11T13:41:42Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2109278268276772879",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "pence_x_2109184290168733726",
+        "content": "Why Supporting Ukraine Is An Investment In Freedom, Not Charity | Daily Wire (9/5/26) https://www.dailywire.com/news/mike-pence-why-supporting-ukraine...",
+        "date": "2026-10-11T07:28:16Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2109184290168733726",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "pence_x_2109031438318555232",
         "content": "So Proud of the Officers, Naval Aviators and Crew of the USS Abraham Lincoln @CVN_72! God Bless You and Your Families for Your Service in Operation Epic Fury! Welcome Home!⚓️🇺🇸USS Abraham Lincoln: No place like home. After 321 days, #LincolnNation made it back to sunny San Diego!For more information, check out the link in our bio!#ABECSG2526 #LincolnNation #ShallNotPerish",
         "date": "2026-10-10T21:20:53Z",
@@ -27545,11 +27797,29 @@
         "is_user_added": false
       },
       {
+        "id": "pence_x_2109222913433895199",
+        "content": "RT Mike Pence: “No Western nation, including the United States, can hope to win its own battle for freedom and survival by sacrificing brave comrades...",
+        "date": "2026-10-10T19:21:09Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2109222913433895199",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "pence_x_2108993426025021479",
         "content": "President Trump’s decision to lift sanctions on Russian fuel amidst Putin’s ongoing and brutal attacks on civilian targets in Ukraine makes no sense...",
         "date": "2026-10-10T18:49:50Z",
         "source": "x",
         "source_url": "https://x.com/Mike_Pence/status/2108993426025021479",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "pence_x_2109222898015649977",
+        "content": "RT Mike Pence: President Trump’s decision to lift sanctions on Russian fuel amidst Putin’s ongoing and brutal attacks on civilian targets in Ukraine...",
+        "date": "2026-10-10T18:49:50Z",
+        "source": "x",
+        "source_url": "https://x.com/Mike_Pence/status/2109222898015649977",
         "context": null,
         "is_user_added": false
       },
@@ -31057,6 +31327,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "mike_johnson_x_2109388869493768423",
+        "content": "Thanks to the Working Families Tax Cuts, Louisiana will receive a HISTORIC investment of an additional $37.7 million to train and recruit more rural h...",
+        "date": "2026-10-11T21:01:11Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2109388869493768423",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "mike_johnson_x_2109066607741862231",
         "content": "Bidenomics caused the highest inflation in 40 years, and we can never let the Democrats try that again. If Democrats took the House majority, they would quickly make life even more expensive for hardworking American families.Treasury Secretary Scott Bessent: Another day, another Econ 101 lesson for Professor Warren.Her “Trumpflation” tracker conveniently ignores the Bidenflation tidal wave that crushed American families, cherry-picks wage growth by refusing to acknowledge positive real wage gains since President Trump came into",
         "date": "2026-10-10T23:40:38Z",
@@ -31602,6 +31881,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "booker_x_2109313246649831611",
+        "content": "Unprecedented corruption. Reporting via @wsj",
+        "date": "2026-10-11T16:00:41Z",
+        "source": "x",
+        "source_url": "https://x.com/CoryBooker/status/2109313246649831611",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "booker_x_2108994163777687682",
         "content": "Grateful for the endorsement of the New Jersey Young Democrats. Across our state, NJYD is proving that mobilizing and organizing is how change gets ma...",
         "date": "2026-10-10T18:52:46Z",
@@ -31738,11 +32026,29 @@
     "domain": "tech",
     "quotes": [
       {
+        "id": "yann_lecun_x_2109184742654611481",
+        "content": "RT Pessimists Archive: “Faceless machines that can out think any man steadily move into new areas formerly reserved for the mind. They are electronic...",
+        "date": "2026-10-10T19:05:20Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2109184742654611481",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "yann_lecun_x_2108997072238289303",
         "content": "RT Julia Kempe: Huge pleasure to participate in this émission of Radio France Inter on AI in the great Big Bang series: https://www.radiofrance.fr/fr...",
         "date": "2026-10-10T12:40:56Z",
         "source": "x",
         "source_url": "https://x.com/ylecun/status/2108997072238289303",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "yann_lecun_x_2109185618106606042",
+        "content": "RT Turing Post (Ksenia Se): What does the world look like inside an AI model? Here are 3 world model architectures based on how they represent the wor...",
+        "date": "2026-10-10T11:52:14Z",
+        "source": "x",
+        "source_url": "https://x.com/ylecun/status/2109185618106606042",
         "context": null,
         "is_user_added": false
       },
@@ -32551,6 +32857,15 @@
     "stance": "none",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "karpathy_x_2109361546505966046",
+        "content": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaki...",
+        "date": "2026-10-11T19:12:37Z",
+        "source": "x",
+        "source_url": "https://x.com/karpathy/status/2109361546505966046",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "karpathy_x_2105909609487872075",
         "content": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models k...",
