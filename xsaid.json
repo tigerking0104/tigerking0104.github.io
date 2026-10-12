@@ -612,6 +612,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "sanders_x_2109419049579118715",
+        "content": "The time for status quo politics and policies is over. We need working-class leaders who will stand up for Americans in Maine and around the country. @troyjackson207 is that leader, and I'm proud to join him in Biddeford, ME. Watch our rally LIVE https://x.com/i/broadcasts/1RJjpbnbyPvKw",
+        "date": "2026-10-11T23:01:07Z",
+        "source": "x",
+        "source_url": "https://x.com/BernieSanders/status/2109419049579118715",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "sanders_x_2109078474287714502",
         "content": "Thank you, Bangor, Maine.Together, we are going to take back the Senate from Republicans and elect working-class champions like Troy Jackson.",
         "date": "2026-10-11T00:27:47Z",
@@ -990,6 +999,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "harris_x_2109408819138695191",
+        "content": "Donald Trump and his war in Iran are to blame for our nation's sky-high diesel and gas prices. His latest ploy—buying fuel from his friend Vladimir Putin—reeks of weakness and will help pay for Russia’s war but will do nothing to make life more affordable for American families.The American people deserve a leader who cares about them, and the Ukrainian people deserve allies who will stand by their side in the fight for a free, democratic, and independent nation.The Associated Press: BREAKING: Trump says Ukraine should get a new president as he blames Zelenskyy for U.S. diesel prices. https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512?taid=6aca73628ff35e000139a359&#x26;utm_campaign=TrueAnthem&#x26;utm_medium=AP&#x26;utm_source=Twitter",
+        "date": "2026-10-11T22:20:28Z",
+        "source": "x",
+        "source_url": "https://x.com/KamalaHarris/status/2109408819138695191",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "harris_005",
         "content": "We will fight for the ideals that unite us.",
@@ -2577,6 +2595,33 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "desantis_x_2109433845468500459",
+        "content": "Completed by @MyFDOT in under 16 hours!Ron DeSantis: Hey @MyFDOT and @FLDEPNews — let’s get this fixed!",
+        "date": "2026-10-11T23:59:54Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2109433845468500459",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2109417858908160123",
+        "content": "FYI…FL Division of Emergency Management: 🏠Recovering from Hurricane #Isaias &#x26; have questions about insurance?Our partners at @FLDFS will host an Insurance Assistance Hub tomorrow, October 12, in Destin to help impacted Floridians navigate the insurance claims process.📍Destin Parks &#x26; Recreation Morgan Sports Center",
+        "date": "2026-10-11T22:56:23Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2109417858908160123",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "desantis_x_2109417651541835931",
+        "content": "Good job. There is major debris in northern Santa Rosa County.FLORIDA DOT: FDOT is actively performing cut and toss operations in rural Santa Rosa County, extending from the Florida-Alabama line South to North of Milton to expedite remaining power restoration.These operations will ensure the community can continue recovery operations.",
+        "date": "2026-10-11T22:55:33Z",
+        "source": "x",
+        "source_url": "https://x.com/RonDeSantis/status/2109417651541835931",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "desantis_x_2109009489466929471",
         "content": "Hey @MyFDOT and @FLDEPNews — let’s get this fixed!",
