@@ -162,6 +162,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "obama_x_2110131278783615360",
+        "content": "I’m coming for you, Ohio! Join me in Cleveland on October 24 for a rally to support @AmyActonOH, @SherrodBrown, and Democrats up and down the ballot.Hope to see you there: https://mobilize.us/ohiowins/event/1062917/Ohio Dems: Join President Barack Obama, Sherrod Brown, and Amy Acton in Cleveland on October 24 to help us fire up Ohio voters and kick the final stretch of the 2026 election into high gear! Sign up here: https://www.mobilize.us/ohiowins/event/1062917/?share_medium=native_share&#x26;share_context=event_detail_page&#x26;force_banner=true",
+        "date": "2026-10-13T22:11:15Z",
+        "source": "x",
+        "source_url": "https://x.com/BarackObama/status/2110131278783615360",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "obama_x_2109295201521106946",
         "content": "Proud of you, @WhiteSox, for making the jump this year! Next year will be even better!",
         "date": "2026-10-11T14:48:59Z",
@@ -1044,6 +1053,24 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "harris_x_2110135200663638035",
+        "content": "Re In 21 days, we have the opportunity to elect leaders who will put a check on Donald Trump's callous, corrupt, and incompetent administration.Let me introduce you to some of them: https://kamalaharris.substack.com/p/the-midterm-elections-are-21-days",
+        "date": "2026-10-13T22:26:50Z",
+        "source": "x",
+        "source_url": "https://x.com/KamalaHarris/status/2110135200663638035",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "harris_x_2110135054747795625",
+        "content": "People are tired of having to choose between gas and groceries, because both are too expensive thanks to Donald Trump’s war in Iran.They are tired of stretching to pay for rent and for daycare and for health care, when the cost of each is climbing but the paycheck has not budged.They are tired of Donald Trump’s lies. They are tired of his cruelty.And they are ready to stop him.",
+        "date": "2026-10-13T22:26:16Z",
+        "source": "x",
+        "source_url": "https://x.com/KamalaHarris/status/2110135054747795625",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "harris_x_2109408819138695191",
         "content": "Donald Trump and his war in Iran are to blame for our nation's sky-high diesel and gas prices. His latest ploy—buying fuel from his friend Vladimir Putin—reeks of weakness and will help pay for Russia’s war but will do nothing to make life more affordable for American families.The American people deserve a leader who cares about them, and the Ukrainian people deserve allies who will stand by their side in the fight for a free, democratic, and independent nation.The Associated Press: BREAKING: Trump says Ukraine should get a new president as he blames Zelenskyy for U.S. diesel prices. https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512?taid=6aca73628ff35e000139a359&#x26;utm_campaign=TrueAnthem&#x26;utm_medium=AP&#x26;utm_source=Twitter",
@@ -7522,6 +7549,24 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2110128761471655978",
+        "content": "Assign Grok @Bot to your phone button for instant accessLiam: I gave Grok Bot its own button→ Press the Action Button→ Open Grok in voice mode→ Give it tasks and deadlines→ Grok delegates them to BotsI feel like James Bond.",
+        "date": "2026-10-13T22:01:15Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110128761471655978",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2110127808718741920",
+        "content": "All Grok @Bots get their own email address and can help analyze and summarize your email box tooeric zakariasson: grok @bot 0.70.2 is rolling out!- each bot can claim its own email address at @mail.grokbot.com and draft emails for you to send- apps like Figma, Notion and Canva show up as live cards right in the chat- bots can search X and read public posts and profiles without connecting",
+        "date": "2026-10-13T21:57:28Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110127808718741920",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2109776287275581504",
         "content": "RT NIK: JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan >social network + frontier in...",
@@ -23533,6 +23578,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2110134527527993652",
+        "content": "COP OUT: El-Sayed's Old Anti-Police Remarks Resurface as Michigan Democrat Touts Law Enforcement Backinghttps://hannity.com/media-room/cop-out-el-sayeds-old-anti-police-remarks-resurface-as-michigan-democrat-touts-law-enforcement-backing/",
+        "date": "2026-10-13T22:24:10Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2110134527527993652",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2109772146234843315",
         "content": "KATIE TAKES THE MIC: Trump Announces First White House Briefing for Leavitt's Successorhttps://hannity.com/media-room/katie-takes-the-mic-trump-announces-first-white-house-briefing-for-leavitts-successor/",
         "date": "2026-10-12T22:24:11Z",
@@ -26814,6 +26868,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "glenn_beck_x_2110134994417140079",
+        "content": "RT Andy NgoRead the exclusive @glennbeck excerpt from my book, The Zizians: Inside a Trans Death Cult, out now.https://glennbeck.com/read/articles/exclusive-book-preview-andy-ngo-enters-the-bizarre-manson-like-world-of-the-ziziansGlenn Beck: \"This investigation examines a group of young people who believed that they could rewrite the rules of reality. That they could overcome their own sex and biology. That death itself could be defeated\"@MrAndyNgo investigates the bizarre, underreported world of an obscure",
+        "date": "2026-10-13T22:25:35Z",
+        "source": "x",
+        "source_url": "https://x.com/glennbeck/status/2110134994417140079",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "glenn_beck_x_2108542481117990995",
         "content": "LIVE: The Glenn Beck Program | Hour 1 | 10/9/26 https://x.com/i/broadcasts/1lKQRWNbdqdGE",
