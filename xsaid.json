@@ -4266,6 +4266,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "cruz_x_2110620439336882688",
+        "content": "The day I won the primary to be elected to the Senate—July 31, 2012—would have been Milton Friedman’s 100th birthday.I dedicated my victory to “Uncle Miltie.”He was a profound &#x26; powerful voice for Liberty—he inspired my career—and he changed the world.https://www.wsj.com/opinion/milton-friedmans-courageous-candor-ac2a9fe3?st=Fryjzb&#x26;reflink=article_copyURL_share",
+        "date": "2026-10-15T06:35:00Z",
+        "source": "x",
+        "source_url": "https://x.com/tedcruz/status/2110620439336882688",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "cruz_x_2110456412086186109",
         "content": "Profound.",
         "date": "2026-10-14T19:43:13Z",
@@ -7819,6 +7828,33 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2110619230161035670",
+        "content": "Early days of OpenAIEva Fo𝕏 🦊 Claudius Nero's Legion: Jensen Huang once admitted that when NVIDIA unveiled its first AI supercomputer, nobody wanted it. Not a single purchase order.Except for Elon Musk.\"He goes, 'You know what? I have a company that could really use this.'\"But then came the twist: it was a nonprofit😂😂 The",
+        "date": "2026-10-15T06:30:12Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110619230161035670",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2110610960474079445",
+        "content": "This works well. If Grok @Bot makes a mistake with a purchase or leaks your card (never happened yet), SpaceX will make you whole.X Freeze: Grok @bot booked a flight for me today the entire process was really really easy…..I send a photo of my credit card and it did the entire process….Tbh, last time I booked, the website was way too confusing…. It’s not an easy website, and Grok Bot did perfectly well and",
+        "date": "2026-10-15T05:57:20Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110610960474079445",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2110602585572860213",
+        "content": "Just ask Grok @Bot to buy what you want someplace else and get a better deal. There are far more purchasing websites than just Amazon!Nic Cruz Patane: This happened when I tried to get my Grok Bot to order stuff for me on Amazon.“Continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.”My bots can no longer access Amazon for orders or anything.",
+        "date": "2026-10-15T05:24:04Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110602585572860213",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2110438877274259488",
         "content": "Try Grok Voice",
