@@ -1256,6 +1256,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "schumer_x_2110839639594438809",
+        "content": "I am incredibly alarmed about the alleged attempt by a white supremacist to commit an act of mass violence at a Hindu temple in Aurora, Illinois, and I thank law enforcement for their swift response. Anti-Indian and anti-Hindu rhetoric is at an alarming level in America, and now we are seeing that hatred turn into violence. Bigotry against any community has no place in America, and I remain committed to ensuring that everyone, regardless of their race or religion, can live and practice their faith openly in our country.ABC 7 Chicago: Suburban police arrested a 19-year-old man Sunday, and he is now charged with making a terrorist threat and unlawful possession of weapons. Investigators he intended to kill as many minorities as possible, according to prosecutors. https://abc7chicago.com/post/palatine-man-alexandros-paporakis-19-arrested-charged-making-terrorist-threat-alleged-aurora-mass-shooting-plot-police/19938541/?ex_cid=TA_WLS_TW&#x26;taid=6ad017976217720001c9f2b5&#x26;utm_campaign=trueAnthem%3A+Trending+Content&#x26;utm_medium=trueAnthem&#x26;utm_source=twitter",
+        "date": "2026-10-15T21:06:02Z",
+        "source": "x",
+        "source_url": "https://x.com/SenSchumer/status/2110839639594438809",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "schumer_x_2110457270135873782",
         "content": "Donald Trump has made clear that he wants to mess with our elections. We must take nothing for granted. That’s why Senate Democrats announced today t...",
         "date": "2026-10-14T19:46:38Z",
@@ -7828,6 +7837,24 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2110832405426933893",
+        "content": "Makes senseTyler Palmer: imagine an Amazon competitor that is:1) agent first - built for personal agents 2) america first - sells only products from usamight actually be a huge market for this.",
+        "date": "2026-10-15T20:37:17Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110832405426933893",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2110832317727973501",
+        "content": "Starlink is really that goodSawyer Merritt: New opinion article about @Starlink from a 7-year Delta Airlines Diamond Medallion status member (their highest loyalty tier):\"After flying a United flight in July that included Starlink, it was enough reason for me to switch. It was amazing, like being on the internet at my",
+        "date": "2026-10-15T20:36:56Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2110832317727973501",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2110619230161035670",
         "content": "Early days of OpenAIEva Fo𝕏 🦊 Claudius Nero's Legion: Jensen Huang once admitted that when NVIDIA unveiled its first AI supercomputer, nobody wanted it. Not a single purchase order.Except for Elon Musk.\"He goes, 'You know what? I have a company that could really use this.'\"But then came the twist: it was a nonprofit😂😂 The",
@@ -24298,6 +24325,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2110834134469796160",
+        "content": "TRUMP EFFECT: Border Arrests Plunge in Trump’s First Full Fiscal Yearhttps://hannity.com/media-room/trump-effect-border-arrests-plunge-in-trumps-first-full-fiscal-year/",
+        "date": "2026-10-15T20:44:09Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2110834134469796160",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2110486918446121360",
         "content": "GREENLAND GOLD RUSH: Trump Unveils Massive Energy Exploration Plans After Historic Arctic Dealhttps://hannity.com/media-room/greenland-gold-rush-trump-unveils-massive-energy-exploration-plans-after-historic-arctic-deal/",
         "date": "2026-10-14T21:44:26Z",
@@ -28027,6 +28063,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "bill_oreilly_x_2110839469846720615",
+        "content": "A LOT going on this past week, so there was much to cover during my spot with @KatiePavlich over at @NewsNationhttps://www.billoreilly.com/b/Bill-OReilly-Joins-Katie-Pavlich-to-Discuss-Midterms-Ilhan-Omar--Kimberly-Guilfoyle/-481943418165148749.html",
+        "date": "2026-10-15T21:05:21Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2110839469846720615",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "bill_oreilly_x_2110451891465306436",
         "content": ".@DouglasESchoen joins me tonight on the No Spin News. Become a Premium or Concierge Member at https://BillOReilly.com.",
@@ -33365,6 +33410,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "booker_x_2110838232334135369",
+        "content": "Trump said he'd \"end inflation.\" Instead, we got this.",
+        "date": "2026-10-15T21:00:26Z",
+        "source": "x",
+        "source_url": "https://x.com/CoryBooker/status/2110838232334135369",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "booker_x_2110447878397145558",
         "content": "They slashed services Americans rely on. Now they’re leveraging it to build private fortunes. Reporting via @washingtonpost",
