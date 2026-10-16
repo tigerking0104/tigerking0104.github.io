@@ -1533,6 +1533,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "warren_x_2111170662387548228",
+        "content": "Senator Cortez Masto helped deliver the biggest housing affordability legislation in 30 years.She took on out-of-state Wall Street investors in housing and won.I'm looking forward to visiting Nevada next week and building on this progress.Senator Cortez Masto: Housing costs in Nevada have soared by over $500 a month since 2025, but this is an issue that has been building for years. That’s why I worked to pass legislation like the 21st Century ROAD to Housing Act that stops private equity from buying up our homes and promotes new",
+        "date": "2026-10-16T19:01:24Z",
+        "source": "x",
+        "source_url": "https://x.com/SenWarren/status/2111170662387548228",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "warren_x_2110469628610941422",
         "content": "A slap on the wrist for @BankofAmerica. CEO Brian Moynihan owes Congress answers, and we need a criminal investigation into the apparent violation of ...",
         "date": "2026-10-14T20:35:44Z",
@@ -7837,6 +7846,24 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2111170548038324695",
+        "content": "Incentives drive outcomesArthur MacWaters: Incentives drive outcomes. If you pay NGOs based on the number of homeless people they manage, they will **never** decrease the number of homeless people. The data is very clear on this.",
+        "date": "2026-10-16T19:00:56Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2111170548038324695",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2111171700209619195",
+        "content": "RT X FreezeSpaceXSI is putting serious effort into Grok Bot for businesses, and the potential economic impact is really enormousSpaceXSI's internal Haggle Bot identified over $100,000 in savings in its first week by analyzing vendor contracts, unused software subscriptions and recurring purchasesNow SpaceXSI is developing a specialized Haggle Bot for businesses, with the goal of improving enterprise cost efficiency by 5% or moreAt a global scale, Elon estimated this could translate into up to $6 trillion in annual savings when applied to global GDPAnd SpaceXSI is making the Grok Bots its own teams use available through its marketplace, allowing other businesses to benefit from the same technologyThis is where SI agents become incredibly valuable, going beyond answering questions to directly improving how businesses operateElon Musk: @0x_kaize We are putting a lot of effort into a specialized Hagglebot for business use, as we think it could improve enterprise cost-efficiency by 5% or more. Applied to the global GDP, this could be up to $6 trillion/year in savings, delivering an immediate and measurable advantage to",
+        "date": "2026-10-16T18:57:52Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2111171700209619195",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2110988635264950570",
         "content": "RT TeslaHoly smokes",
@@ -24370,6 +24397,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "hannity_x_2111174183728128355",
+        "content": "'ABSOLUTE PERFECTION': AOC's Old Musk Insult Gets a Tesla Makeover [WATCH]https://hannity.com/media-room/absolute-perfection-aocs-old-musk-insult-gets-a-tesla-makeover-watch/",
+        "date": "2026-10-16T19:15:23Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2111174183728128355",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "hannity_x_2110834134469796160",
         "content": "TRUMP EFFECT: Border Arrests Plunge in Trump’s First Full Fiscal Yearhttps://hannity.com/media-room/trump-effect-border-arrests-plunge-in-trumps-first-full-fiscal-year/",
         "date": "2026-10-15T20:44:09Z",
@@ -28108,6 +28144,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "bill_oreilly_x_2111185561276821604",
+        "content": "WE’LL DO IT LIVE! with @stephenasmith is available NOW on https://BillOReilly.com for Premium and Concierge Members. Catch it on YouTube, Apple Podcasts, Spotify, or wherever you stream your podcasts. Subscribe here ➡️ https://youtube.com/BillOReilly",
+        "date": "2026-10-16T20:00:36Z",
+        "source": "x",
+        "source_url": "https://x.com/BillOReilly/status/2111185561276821604",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "bill_oreilly_x_2110839469846720615",
         "content": "A LOT going on this past week, so there was much to cover during my spot with @KatiePavlich over at @NewsNationhttps://www.billoreilly.com/b/Bill-OReilly-Joins-Katie-Pavlich-to-Discuss-Midterms-Ilhan-Omar--Kimberly-Guilfoyle/-481943418165148749.html",
@@ -33119,6 +33164,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "whitmer_x_2111187649520075113",
+        "content": "Michigan: Monday is your last day to register to vote online or by mail. Get it done this weekend at https://Michigan.gov/VoteAfter Monday, you can still register in-person at your local clerk's office through election day.🗳️",
+        "date": "2026-10-16T20:08:54Z",
+        "source": "x",
+        "source_url": "https://x.com/GovWhitmer/status/2111187649520075113",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "whitmer_x_2110465740432138576",
         "content": "Starting this week, 9,767 Michiganders will open their mail and find out their medical debt is gone. Together with Undue Medical Debt, we’ve erased o...",
