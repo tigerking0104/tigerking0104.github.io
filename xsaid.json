@@ -162,6 +162,24 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "obama_x_2114118598268702931",
+        "content": "Michigan, are you fired up and ready to vote? Watch to hear why you should elect @JocelynBenson, @AbdulElSayed, and Democrats across the ballot. https://x.com/i/broadcasts/1lKQRWMBykNGE",
+        "date": "2026-10-24T22:15:26Z",
+        "source": "x",
+        "source_url": "https://x.com/BarackObama/status/2114118598268702931",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "obama_x_2114117549117825307",
+        "content": "It’s the first day of early voting in Michigan, and I’m heading to Detroit for a rally to support @JocelynBenson, @AbdulElSayed, and Democrats working to create change.Make a plan to vote at https://MichiganDems.com/Vote.",
+        "date": "2026-10-24T22:11:16Z",
+        "source": "x",
+        "source_url": "https://x.com/BarackObama/status/2114117549117825307",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "obama_x_2111883122619060559",
         "content": "Georgia! I’ll be in Atlanta on October 28 for a rally to support @KeishaforGA, @Ossoff, and Democrats fighting to make your life better.Join us: https://unitedforgeorgia.comGeorgia Democrats: Join President @BarackObama, @Ossoff, @KeishaBottoms and Democrats up and down the ballot for a United for Georgia Rally on Oct. 28 in Atlanta. Sign up here: https://unitedforgeorgia.com",
         "date": "2026-10-18T18:12:27Z",
@@ -638,6 +656,15 @@
     "stance": "left",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "sanders_x_2114131636367577390",
+        "content": "The billionaire class can pour millions into elections, but they cannot buy the support of the people. Peggy Flanagan has shown that.Today in Duluth, we're getting out the vote with Peggy and Keith Ellison to keep Minnesota fighting for working families. https://x.com/i/broadcasts/1XxygwqPOQbGM",
+        "date": "2026-10-24T23:07:15Z",
+        "source": "x",
+        "source_url": "https://x.com/BernieSanders/status/2114131636367577390",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "sanders_x_2112363276428558690",
         "content": "Thanks El Paso, Texas, for a great event and a great turnout. Oligarchic greed is destroying our economy. The rich get richer while working families struggle. Let’s end Republican control of Congress and create an economy that works for all, not just the few.",
@@ -2650,6 +2677,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "trump_x_2114119209546342910",
+        "content": "https://x.com/i/broadcasts/1qKVmyjwodwxB",
+        "date": "2026-10-24T22:17:52Z",
+        "source": "x",
+        "source_url": "https://x.com/realDonaldTrump/status/2114119209546342910",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "trump_x_2103205593234211024",
         "content": "RT The White House: Military Review with the President of China and Madame Peng https://x.com/i/broadcasts/1qxvveXDqqjxB",
@@ -7573,6 +7609,15 @@
     "stance": "none",
     "domain": "sports",
     "quotes": [
+      {
+        "id": "curry_x_2114140996670046354",
+        "content": "Tough finish but on to the next! Always appreciate the love Dub Nation.",
+        "date": "2026-10-24T23:44:27Z",
+        "source": "x",
+        "source_url": "https://x.com/StephenCurry30/status/2114140996670046354",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "curry_x_2105048603718988039",
         "content": "Season 18 🏀",
@@ -25823,6 +25868,24 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "coulter_x_2114142867493171228",
+        "content": "RT @MarkSimoneNY: The outrage over what Vivek Ramaswamy did! Having the mother of his Democrat opponent record a commercial attacking her.…",
+        "date": "2026-10-24T23:51:53Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2114142867493171228",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "coulter_x_2114127499441451342",
+        "content": "The con job of the century was convincing black Americans that making the U.S. \"diverse\" through immigration (rather than bi-racial, which it was) would be GREAT for them. There has never been an ethnic group as easy to mau-mau as whites - not Arabs, Hispanics, Asians or Indians. Not even close.Let's check in with the black vote for Abdul El-Sayed in Michigan:&#x3C;>[I like how the NYT refers vaguely to \"animosities\" and \"conflict.\"]El-Sayed this week on a podcast aimed at Black audiences:&#x3C;&#x3C;“For too many Black Detroiters, in particular, their experience with somebody who looks like me is not a good one ... You go into a gas station and you go to a party store, you’re being talked at from behind bulletproof glass. You’re a woman, you’re being catcalled. If you’re a kid, you’re being sold a loosie” — a single cigarette — “out the back.”>>",
+        "date": "2026-10-24T22:50:49Z",
+        "source": "x",
+        "source_url": "https://x.com/AnnCoulter/status/2114127499441451342",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "coulter_x_2113923595432755463",
         "content": "Finally! A girl sheriff to be proud of.Massimo Messina: 🚨BREAKING: Miami-Dade Sheriff Rosie Cordero-Stutz detailed how she saved taxpayers about $33 million by skipping new uniforms, a cold plunge, massage tables, and logos on everything.She said the office was paying the county $54 million a year for IT services. Closer",
