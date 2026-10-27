@@ -657,6 +657,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "sanders_x_2114837571880849450",
+        "content": "Young people will live longest with the consequences of AI, climate change and our broken political system. They deserve a voice in shaping their future.Today I’m in Ann Arbor with Abdul-El Sayed talking to college students about how we fight back. https://x.com/i/broadcasts/1OxwbnXypzNJB",
+        "date": "2026-10-26T21:52:23Z",
+        "source": "x",
+        "source_url": "https://x.com/BernieSanders/status/2114837571880849450",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "sanders_x_2114486195346632745",
         "content": "AIPAC, crypto, and the AI industry are spending tens of millions against Abdul El-Sayed because he believes our government should work for working people, not billionaires.Today in Grand Rapids, we're fighting for a Michigan that puts people first. https://x.com/i/broadcasts/1yKAPwLoVpMxb",
         "date": "2026-10-25T22:36:08Z",
@@ -8044,6 +8053,15 @@
     "stance": "right",
     "domain": "tech",
     "quotes": [
+      {
+        "id": "musk_x_2114848066767630417",
+        "content": "Everyday is zero-day these days",
+        "date": "2026-10-26T22:34:05Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2114848066767630417",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "musk_x_2114471229994520809",
         "content": "Good questionsX Freeze: How come Elon Musk is the only one seriously talking about all these young people dying in the trenches for no reason and begging for this war to stop? Innocent young Ukrainians and Russian conscripts are getting blown apart by drones, losing their livesAnd then you look at",
@@ -23011,6 +23029,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "chris_hayes_x_2114841217641124140",
+        "content": "The next chapter of this discourse is people saying earnestly that Obama doesn't understand that humble, working class Americans far from the coasts LIKE Saddam's Baathist aesthetic and many have even imitataed the interior design of قصر المسك in their humble tract homes.scary lawyerguy: More attention needs to be paid to the Saddam part of the quip and less the Cheesecake Factory part of the quip. Like, Obama was clocking Trump as a dictator with bad taste and we're just yada yada-ing past the first part and focusing on the second part.",
+        "date": "2026-10-26T22:06:52Z",
+        "source": "x",
+        "source_url": "https://x.com/chrislhayes/status/2114841217641124140",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "chris_hayes_x_2113447692248498649",
         "content": "RT keachhageyLast month, OpenAI called in the three outspoken safety researchers and asked them to unlock their personal phones. It was conducting a leak investigation into a story in The Information about Astra’s use of opaque architectures, and the company’s plans to continue down that path. A week later, at 2 p.m., they were all fired.Our story, w/ @ZeffMax and @berber_jin1 , looks at the battle over how much AI companies should share with third-party monitors like METR and Redwood to ensure AI safety https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853?st=8TUkhR via @WSJ",
         "date": "2026-10-23T01:24:45Z",
@@ -24774,6 +24801,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "hannity_x_2114845612235509901",
+        "content": "WORD SALAD ALERT! Kamala Harris Says Looking at Kids Can 'Remind Us of Our Natural Nature' [WATCH]https://hannity.com/media-room/word-salad-alert-kamala-harris-says-looking-at-kids-can-remind-us-of-our-natural-nature-watch/",
+        "date": "2026-10-26T22:24:20Z",
+        "source": "x",
+        "source_url": "https://x.com/seanhannity/status/2114845612235509901",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "hannity_x_2113793600953721241",
         "content": "ROADMAP TO RUIN: The DSA's Goal is to Tear America Down — Here's How They Want to Do It [INFO]https://hannity.com/media-room/roadmap-to-ruin-the-dsas-goal-is-to-tear-america-down-heres-how-they-want-to-do-it-read/",
@@ -27163,6 +27199,15 @@
     "domain": "politics",
     "quotes": [
       {
+        "id": "ingraham_x_2114844463034221029",
+        "content": "RT Raymond ArroyoSeen and Unseen on The @IngrahamAngle TONIGHT: Celebs try to sway elections and a new Word of the Day. 7:52 Pm E. @FoxNews. Don’t miss.",
+        "date": "2026-10-26T22:19:38Z",
+        "source": "x",
+        "source_url": "https://x.com/IngrahamAngle/status/2114844463034221029",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "ingraham_x_2113273714263613595",
         "content": "This is part of the Dem-socialist “delegitimization” strategy, a precursor to nationwide protests against phantom election “threats.” Their “playbook” for upending our system. Demsaccuse Trump of using prosecution threats to pressure election officials https://www.axios.com/2026/10/21/trump-election-interference-lawsuit-democrats",
         "date": "2026-10-22T14:18:10Z",
@@ -28443,6 +28488,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "glenn_beck_x_2114840395708268651",
+        "content": "RT DataRepublican (small r)Re Exactly right Glenn. You touched on why color revolutions are so damaging and do not work: they destroy a country's legitimacy. That's why they never deliver \"democracy.\" They deliver civil war and Balkanization. The end result of forced structural reform won't be \"oh, well, the Democrats won, we'll give up.\" It'll be a country that's irreversibly broken and has delegitimized itself. This is what we need to do: https://x.com/DataRepublican/status/2113801170007580992DataRepublican (small r): The most common question about the Democracy Files is: \"What do we do now?\" As always, there is only one Answer. https://x.com/i/article/2113800193342840832",
+        "date": "2026-10-26T22:03:13Z",
+        "source": "x",
+        "source_url": "https://x.com/glennbeck/status/2114840395708268651",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "glenn_beck_x_2113615911211196507",
         "content": "LIVE: The Glenn Beck Program | Hour 1 | 10/23/26 https://x.com/i/broadcasts/1lJQRWbVQMBxE",
@@ -33504,6 +33558,15 @@
     "stance": "right",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "mike_johnson_x_2114837841863676017",
+        "content": "It has been my highest honor to serve these past three years as the 56th Speaker. Our extraordinary success has been achieved through a total TEAM effort, and I’m grateful for the hard work and faithful support of so many trusted friends. We look forward to delivering even more in the days ahead.🇺🇸Speaker Mike Johnson: https://x.com/i/article/2114816777351839745",
+        "date": "2026-10-26T21:53:27Z",
+        "source": "x",
+        "source_url": "https://x.com/SpeakerJohnson/status/2114837841863676017",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "mike_johnson_x_2110443214750572766",
         "content": "This is NOT your father’s Democrat Party! The dangerous Marxist left has TAKEN IT OVER to push their anti-American policy agenda. The choice is now c...",
