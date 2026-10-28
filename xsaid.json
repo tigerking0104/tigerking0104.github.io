@@ -8054,6 +8054,24 @@
     "domain": "tech",
     "quotes": [
       {
+        "id": "musk_x_2115350414367568190",
+        "content": "RT @SPCX100T: Throughout my 20 something years in investing, SpaceX $SPCX is the largest arbitrage I’ve ever encountered. It’s not a misund…",
+        "date": "2026-10-28T07:50:14Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2115350414367568190",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "musk_x_2115346748730380385",
+        "content": "Hire Grok @Bot, you won’t regret itPierre Ferragu: Planchet, my Grok Bot is promoted to fully-fledged team member. He has access to all our thinking (research, emails, models, slack, industry data), he is incredibly resourceful - a mesmerizing get-it-done attitude, ultra-fast, receptive with feedback. It is mind-blowing.",
+        "date": "2026-10-28T07:35:40Z",
+        "source": "x",
+        "source_url": "https://x.com/elonmusk/status/2115346748730380385",
+        "context": null,
+        "is_user_added": false
+      },
+      {
         "id": "musk_x_2114973768473039185",
         "content": "Everyone should have at least a few penchants",
         "date": "2026-10-27T06:53:35Z",
@@ -11544,6 +11562,33 @@
     "stance": "none",
     "domain": "politics",
     "quotes": [
+      {
+        "id": "zelenskyy_x_2115360091415122388",
+        "content": "Many people didn't see that Russia was attacking our data and cyberspace over a long period of time. Then we found a way to weaken Russia's strategy, to respond to their attacks on data. We are different here. Ukraine is more technologically advanced. The Russians attacked our data centers so many times, and still we had cell service and an Internet connection. Because we are digitally decentralized and advanced. Our responses are more painful for Russia because they are more centralized. They have a different strategy. Because they have a lot of air defense assets, they are simply defending what they have. We don’t have too much air defense – we have a shortage. That is why we decentralized everything, not only data. But we always try to respond and do so only after Russian attacks against us.From an interview with The Sun. (3/3)",
+        "date": "2026-10-28T08:28:41Z",
+        "source": "x",
+        "source_url": "https://x.com/ZelenskyyUa/status/2115360091415122388",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "zelenskyy_x_2115358793114538230",
+        "content": "To speak honestly is one of our weapons, to be open, and to be clear. Not to play games with our partners. This is my rule of thumb. There is a lot of pressure on Ukraine at the moment, and of course I have to be louder. And I will be, because it's part of our defense strategy. We are not trying to be somebody else. If I feel that dangerous things are looming over Ukraine, I have to defend my country. And I do what I can, like our soldiers on the battlefield and people who work for Ukraine. And I, the President, have to use every format of diplomacy.From an interview with The Sun. (2/3)",
+        "date": "2026-10-28T08:23:32Z",
+        "source": "x",
+        "source_url": "https://x.com/ZelenskyyUa/status/2115358793114538230",
+        "context": null,
+        "is_user_added": false
+      },
+      {
+        "id": "zelenskyy_x_2115357488610435401",
+        "content": "President Trump and I are on the same side when we speak about ending Russia’s war, but we see different instruments for achieving that goal. My philosophy is that Putin is a deeply Soviet person, both in his reality and mentality. We know it because my generation was born in the Soviet Union. When Putin is lying, we feel it. We were neighbors with the Russians for so many years. That's why I think we understand the Russians more clearly than the United States.The United States, considering global security, can discuss with the Russians different topics. But we understand the mentality of both Putin and the Russian people, their soldiers and civilians. When they are ready to do something, and when they fear Putin because they know they can be imprisoned. If they don’t go and kill Ukrainians, Putin will sanction them in his own way.Therefore, President Trump supported us on some topics, while on others we have different views.From an interview with The Sun. (1/3)",
+        "date": "2026-10-28T08:18:21Z",
+        "source": "x",
+        "source_url": "https://x.com/ZelenskyyUa/status/2115357488610435401",
+        "context": null,
+        "is_user_added": false
+      },
       {
         "id": "zelenskyy_x_2109364087465693291",
         "content": "Wishing His Holiness Pope Leo XIV @Pontifex a successful surgery and a swift, full recovery. Our thoughts and prayers are with him, and we hope he wil...",
